@@ -41,5 +41,50 @@
     <string name="btn_details_update">Update</string>
     <string name="btn_details_delete">Delete</string>
 
+    //Mishan
+    <string name="sell_toolbar_name">Sell Your Pet</string>
+    <string name="sell_breed">Breed</string>
+    <string name="sell_no">No of Puppies</string>
+    <string name="sell_dob">Birthday</string>
+    <string name="sell_add">Address</string>
+    <string name="sell_img">Add Image</string>
+    <string name="sell_edit1">Kasun Kalhara</string>
+    <string name="sell_edit2">0769349192</string>
+    <string name="sell_edit3">No 23, Mathara</string>
+    <string name="sell_btn">SUBMIT</string>
+    <string name="buypet_toolbar_name">Buy Your Pet</string>
+    <string name="buypet_txt1">Raising a dog is a best hobby for you. Having a dog reduce your stress and depression.
+        So buy your puppy today!</string>
+    <string name="sell_name">Owner Name</string>
+    <string name="sell_phone">Phone No</string>
+    <string name="sell_price">Price (Rs)</string>
+    <string name="sell_edit4">Labrador</string>
+    <string name="sell_edit5">08</string>
+    <string name="sell_edit6">12/12/2018</string>
+    <string name="sell_edit7">40000</string>
+    <string name="vsell_txt1">Your Details</string>
+    <string name="vsell_txt5">Pet Details</string>
+    <string name="vsell_update">UPDATE</string>
+    <string name="vsell_delete">DELETE</string>
+    <string name="buyprof_txt1">Labrador Puppies</string>
+    <string name="main_selltxt1">Add Advertisement</string>
+    <string name="main_selltxt2">View Advertisement</string>
+    <string name="buyprof_txt2">Owner Details</string>
+    <string name="buyprof_txt3">Name</string>
+    <string name="buyprof_txt4">Contact No</string>
+    <string name="walk_dog_toolbar">Walk Your Dog</string>
+    <string name="walk_dogtxt1">Calorie Burner Calculator</string>
+    <string name="walk_dogtxt2">Weight (kg)</string>
+    <string name="walk_dogtxt3">Walk your dog everyday to ensure your dogs health and happiness.</string>
+    <string name="walk_dogedit2">02:00</string>
+    <string name="walk_dogtxt4">Your dog burned</string>
+    <string name="walk_dogedit1">10</string>
+    <string name="walk_dogbtn1">START</string>
+    <string name="walk_dogbtn2">STOP</string>
+    <string name="walk_dogbtn3">RESET</string>
+    <string name="walk_dogbtn4">Burned Calories</string>
+    <string name="walk_dogtxt5">Calories</string>
+    <string name="walk_dogedit3">94.67</string>
+
 
 </resources>
