@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Inferno_Dog_Care_App</string>
+    <string name="bmi_toolbar_name">BMI CALCULATOR</string>
+    <string name="bmi_txt1">Dog Name</string>
+    <string name="bmi_txt2">Gender</string>
+    <string name="bmi_txt3">Breed</string>
+    <string name="bmi_txt4">Weight (kg)</string>
+    <string name="bmi_txt5">Height (cm)</string>
+    <string name="bmi_edit1">Selly</string>
+    <string name="bmi_edit2">Labrador</string>
+    <string name="bmi_edit3">40</string>
+    <string name="bmi_edit4">65</string>
+    <string name="bmi_btn1">Calculate BMI</string>
+    <string name="bmi_ans">94.67</string>
+    <string name="channel_choose_toolbar_name">Channel Your Veterinarian</string>
+    <string name="channel_choose_view">Make An Appointment</string>
+    <string name="channel_choose_viewapp">View Appointments</string>
+    <string name="txt_login">Login</string>
+    <string name="txt_profile">Profile</string>
+    <string name="txt_channel">Channel Vet</string>
+    <string name="txt_walkyourdog">Walk Your Dog</string>
+    <string name="txt_bmicalculator">BMI Calculator</string>
+    <string name="txt_foodcaories">Food Calories</string>
+    <string name="txt_adopt">Adopt Dog</string>
+    <string name="txt_buydog">Buy A Dog</string>
+    <string name="txt_selldog">Sell A Dog</string>
+    <string name="appointment_details_toolbar_name">Channel Your Veterinarian</string>
+    <string name="txt_appointmentetils"><u>Appointment Details</u></string>
+    <string name="txt_doctorname">Doctors Name</string>
+    <string name="txt_channelingfee">Channeling Fee</string>
+    <string name="txt_date">Date</string>
+    <string name="txt_doctorname2">: Dr. Mishan Kavindu</string>
+    <string name="txt_channelingfee2">: Rs. 500.00</string>
+    <string name="txt_date2">: 18/08/2021</string>
+    <string name="txt_dogownerdetails"><u>Dog Owner Details</u></string>
+    <string name="txt_ownername">Name</string>
+    <string name="txt_ownername2">: Saman Soysa</string>
+    <string name="txt_ownerphone">Phone</string>
+    <string name="txt_ownerphone2">: 076 9349192</string>
+    <string name="btn_details_payment">Payment</string>
+    <string name="btn_details_update">Update</string>
+    <string name="btn_details_delete">Delete</string>
+
+
+</resources>
