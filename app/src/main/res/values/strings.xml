@@ -87,5 +87,53 @@
     <string name="walk_dogedit3">94.67</string>
     <string name="txt_confirmmsg">Appointment Scheduled !</string>
 
-
+    // ESHAN
+    <string name="vet_reg">Veterinarian Registration</string>
+    <string name="vet_next">Next</string>
+    <string name="f_name">First Name</string>
+    <string name="l_name">Last Name</string>
+    <string name="gender">Gender</string>
+    <string name="address">Address</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="vet_reg2">Veterinarian Registration</string>
+    <string name="prof_info">Professional Information</string>
+    <string name="reg_no">BVSc Registration No</string>
+    <string name="reg_year">Year of Registration</string>
+    <string name="specification">Specification</string>
+    <string name="description">Description</string>
+    <string name="appointments">Appointments</string>
+    <string name="y_appointment">Your Appointments</string>
+    <string name="date">Date</string>
+    <string name="name">Name</string>
+    <string name="c1_n">Ada Lovelace</string>
+    <string name="c2_n">Grace Hopper</string>
+    <string name="c3_n">Margaret Hamilton</string>
+    <string name="c4_n">Joan Clarke</string>
+    <string name="c2_d">24/08/2021</string>
+    <string name="c1_d">23/08/2021</string>
+    <string name="c3_d">26/08/2021</string>
+    <string name="c4_d">29/08/2021</string>
+    <string name="calc_income">Calculate Channelling Income</string>
+    <string name="income">Income :</string>
+    <string name="vet_profile">Veterinarian Profile</string>
+    <string name="doc_name">DR. MISHAN KAVINDU</string>
+    <string name="doc_description">BVSc (Hons) Dip. Tox</string>
+    <string name="doc_description2">Registered Vet. Surgeon 1234</string>
+    <string name="detail1">Male</string>
+    <string name="detail2">No12, Gonawala Road, Kelaniya</string>
+    <string name="detail3">076-2458695</string>
+    <string name="detail4">mishank@gmail.com</string>
+    <string name="vet_app_b">Appointments</string>
+    <string name="vet_up_b">Update Account</string>
+    <string name="vet_del_b">Delete Account</string>
+    <string name="c_account">Create Account</string>
+    <string name="vet_loging">Veterinarian Login</string>
+    <string name="txt_welcome">Welcome Back !</string>
+    <string name="txt_password">Password</string>
+    <string name="button_login">LOGIN</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="txt_haveanaccount">Do you have an account ?</string>
+    <string name="txt_signup">SIGN UP</string>
 </resources>

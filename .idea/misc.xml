@@ -16,10 +16,30 @@
         <entry key="..\:/Inferno_Dog_Care_App/app/src/main/res/layout/sell_pet.xml" value="0.25052083333333336" />
         <entry key="..\:/Inferno_Dog_Care_App/app/src/main/res/layout/splash_screen.xml" value="0.25416666666666665" />
         <entry key="..\:/Inferno_Dog_Care_App/app/src/main/res/layout/view_sellpet.xml" value="0.25052083333333336" />
+        <entry key="..\:/MAD/app/src/main/res/drawable-v24/round_corner.xml" value="0.14635416666666667" />
+        <entry key="..\:/MAD/app/src/main/res/drawable-v24/round_corner2.xml" value="0.2703125" />
+        <entry key="..\:/MAD/app/src/main/res/drawable/round.xml" value="0.2703125" />
+        <entry key="..\:/MAD/app/src/main/res/layout/appointment_confirmation.xml" value="0.13020833333333334" />
+        <entry key="..\:/MAD/app/src/main/res/layout/appointment_details.xml" value="0.13020833333333334" />
+        <entry key="..\:/MAD/app/src/main/res/layout/bmi_calculator.xml" value="0.13020833333333334" />
+        <entry key="..\:/MAD/app/src/main/res/layout/buy_profile.xml" value="0.13020833333333334" />
+        <entry key="..\:/MAD/app/src/main/res/layout/buypet.xml" value="0.13020833333333334" />
+        <entry key="..\:/MAD/app/src/main/res/layout/channelvet_choose.xml" value="0.13020833333333334" />
+        <entry key="..\:/MAD/app/src/main/res/layout/dog_walk.xml" value="0.13020833333333334" />
+        <entry key="..\:/MAD/app/src/main/res/layout/main_menu.xml" value="0.13020833333333334" />
+        <entry key="..\:/MAD/app/src/main/res/layout/main_sellpet.xml" value="0.13020833333333334" />
+        <entry key="..\:/MAD/app/src/main/res/layout/sell_pet.xml" value="0.13020833333333334" />
+        <entry key="..\:/MAD/app/src/main/res/layout/splash_screen.xml" value="0.13020833333333334" />
+        <entry key="..\:/MAD/app/src/main/res/layout/vet_income.xml" value="0.13020833333333334" />
+        <entry key="..\:/MAD/app/src/main/res/layout/vet_logging.xml" value="0.13020833333333334" />
+        <entry key="..\:/MAD/app/src/main/res/layout/vet_prof_info.xml" value="0.13020833333333334" />
+        <entry key="..\:/MAD/app/src/main/res/layout/vet_profile.xml" value="0.13020833333333334" />
+        <entry key="..\:/MAD/app/src/main/res/layout/vet_registration.xml" value="0.13020833333333334" />
+        <entry key="..\:/MAD/app/src/main/res/layout/view_sellpet.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
