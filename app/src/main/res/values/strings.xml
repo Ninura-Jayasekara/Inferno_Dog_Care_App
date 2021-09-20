@@ -1,4 +1,6 @@
 <resources>
+
+    <!--Ninura-->
     <string name="app_name">Inferno_Dog_Care_App</string>
     <string name="bmi_toolbar_name">BMI CALCULATOR</string>
     <string name="bmi_txt1">Dog Name</string>
@@ -40,6 +42,21 @@
     <string name="btn_details_payment">Payment</string>
     <string name="btn_details_update">Update</string>
     <string name="btn_details_delete">Delete</string>
+    <string name="txt_confirmmsg">Appointment Scheduled !</string>
+    <string name="payment_toolbar_name">Channel Your Veterinarian</string>
+    <string name="paymentedit_cardno">4567 5678 3867 5611</string>
+    <string name="paymentedit_name">Name</string>
+    <string name="paymentedit_cvv">CVV</string>
+    <string name="paymentedit_expire">mm/yy</string>
+    <string name="paymentedit_amount">500.00</string>
+    <string name="txt_cardno">Card No</string>
+    <string name="txt_name">Name</string>
+    <string name="txt_cvv">CVV</string>
+    <string name="txt_expire">Card Expiry</string>
+    <string name="txt_amount">Amount (Rs)</string>
+    <string name="btn_payment">MAKE PAYMENT</string>
+    <string name="txt_topic">Payment Details</string>
+
 
     //Mishan
     <string name="sell_toolbar_name">Sell Your Pet</string>
@@ -85,7 +102,22 @@
     <string name="walk_dogbtn4">Burned Calories</string>
     <string name="walk_dogtxt5">Calories</string>
     <string name="walk_dogedit3">94.67</string>
-    <string name="txt_confirmmsg">Appointment Scheduled !</string>
+
+    <string name="vet_details_toolbar_name">Channel Your Veterinarian</string>
+    <string name="vet_details_txt1">You can channel your trusted veterinarian through our app easily. All the veterinarians are qualified and very experienced. Doctors are available everyday from 4.00 p.m. to 10.00 a.m.</string>
+    <string name="channel_toolbar_name">Channel Your Veterinarian</string>
+    <string name="channel_name">Name</string>
+    <string name="channel_txt_name">Name</string>
+    <string name="channel_txt_date">Date</string>
+    <string name="channel_txt_phone">Phone</string>
+    <string name="channel_date">Date</string>
+    <string name="channel_phone">Phone</string>
+    <string name="channel_btn_hold">HOLD</string>
+    <string name="channel_btn_payment">PAYMENT</string>
+    <string name="txt_channel_dis_name">Dr .Mishan Kavindu</string>
+    <string name="txt_channel_dis_deg">BVCs (Hons) Dip. Tox</string>
+    <string name="txt_channel_dis_reg">Registered vet surgeon 1234</string>
+    <string name="txt_channel_dis_details">No.12 , Gonawala Road, Kelaniya.  076 2458695 mishk@gmail.com Channeling Fee : Rs. 500.00 "</string>
 
     // ESHAN
     <string name="vet_reg">Veterinarian Registration</string>

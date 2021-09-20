@@ -18,11 +18,6 @@ public class MainActivity extends AppCompatActivity {
 //        setContentView(R.layout.main_sellpet);
 //        setContentView(R.layout.buy_profile);
 //        setContentView(R.layout.dog_walk);
-        //setContentView(R.layout.appointment_confirmation);
-        //setContentView(R.layout.vet_registration);
-        //setContentView(R.layout.vet_prof_info);
-        //setContentView(R.layout.vet_logging);
-        setContentView(R.layout.vet_profile);
-        //setContentView(R.layout.vet_income);
+        setContentView(R.layout.appointment_confirmation);
     }
 }

@@ -9,7 +9,7 @@
     tools:context=".MainActivity">
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/appointment_details_toolbar"
+        android:id="@+id/payment_toolbar"
         android:layout_width="409dp"
         android:layout_height="40dp"
         android:background="@color/white"
@@ -48,7 +48,7 @@
         app:layout_constraintVertical_bias="0.769" />
 
     <TextView
-        android:id="@+id/appointment_details_toolbar_name"
+        android:id="@+id/payment_toolbar_name"
         android:layout_width="425dp"
         android:layout_height="69dp"
         android:layout_marginTop="-15dp"

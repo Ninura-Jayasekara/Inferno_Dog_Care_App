@@ -22,10 +22,9 @@
         android:id="@+id/vet_details_toolbar_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="124dp"
-        android:layout_marginLeft="124dp"
+        android:layout_marginStart="40dp"
         android:gravity="center"
-        android:text="@string/buypet_toolbar_name"
+        android:text="@string/vet_details_toolbar_name"
         android:textColor="@color/black"
         android:textSize="28sp"
         android:textStyle="bold"
@@ -37,11 +36,11 @@
 
     <TextView
         android:id="@+id/vet_details_txt1"
-        android:layout_width="293dp"
-        android:layout_height="146dp"
+        android:layout_width="304dp"
+        android:layout_height="171dp"
         android:layout_marginTop="52dp"
         android:gravity="center"
-        android:text="@string/buypet_txt1"
+        android:text="@string/vet_details_txt1"
         android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -87,9 +86,9 @@
         android:id="@+id/imageView21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="256dp"
+        android:layout_marginTop="252dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/sell_box" />
@@ -100,7 +99,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="388dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/sell_box" />
@@ -163,58 +162,90 @@
         android:id="@+id/imageView32"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginTop="248dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="252dp"
         app:layout_constraintStart_toStartOf="@+id/imageView20"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/sell_lab" />
+        app:srcCompat="@drawable/vet1" />
 
     <ImageView
         android:id="@+id/imageView33"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginLeft="24dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="388dp"
         app:layout_constraintStart_toStartOf="@+id/imageView21"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/sell_germ" />
+        app:srcCompat="@drawable/vet2" />
 
     <ImageView
         android:id="@+id/imageView34"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginTop="524dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="520dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/sell_rotw" />
-
-    <TextView
-        android:id="@+id/vet_txt1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="268dp"
-        android:layout_marginEnd="72dp"
-        android:layout_marginRight="72dp"
-        android:text="Labrador Puppies"
-        android:textColor="@color/white"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:srcCompat="@drawable/vet3" />
 
     <TextView
         android:id="@+id/vet_txt4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="404dp"
-        android:layout_marginEnd="76dp"
-        android:layout_marginRight="76dp"
-        android:text="German Sherpard"
+        android:layout_marginTop="388dp"
+        android:layout_marginEnd="60dp"
+        android:text="Dr. Ajith Jasinghe"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/vet_txt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="48dp"
+        android:text="BVSc (Hons) Dip. Tox "
         android:textColor="@color/white"
         android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vet_txt4" />
+
+    <TextView
+        android:id="@+id/vet_txt6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="72dp"
+        android:text="No. 112, Galle Road, Galle."
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vet_txt4" />
+
+    <TextView
+        android:id="@+id/vet_txt9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="92dp"
+        android:text="No. 23, Nupe, Mathara."
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vet_txt7" />
+
+    <TextView
+        android:id="@+id/vet_txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="248dp"
+        android:layout_marginEnd="60dp"
+        android:text="Dr. Mishan Perera"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -222,12 +253,12 @@
         android:id="@+id/vet_txt7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="540dp"
-        android:layout_marginEnd="76dp"
-        android:layout_marginRight="76dp"
-        android:text="Rotwiller Puppies"
+        android:layout_marginTop="520dp"
+        android:layout_marginEnd="60dp"
+        android:text="Dr. Lalith De Silva"
         android:textColor="@color/white"
-        android:textSize="24sp"
+        android:textSize="28sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -235,36 +266,31 @@
         android:id="@+id/vet_txt2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="172dp"
-        android:layout_marginRight="172dp"
-        android:text="40000/="
+        android:layout_marginEnd="48dp"
+        android:text="BVSc (Hons) Dip. Tox "
         android:textColor="@color/white"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/vet_txt1" />
 
     <TextView
-        android:id="@+id/vet_txt5"
+        android:id="@+id/vet_txt3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="172dp"
-        android:layout_marginRight="172dp"
-        android:text="30000/="
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:text="No. 12, Gonawala Road, Kelaniya."
         android:textColor="@color/white"
-        android:textSize="24sp"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/vet_txt4" />
+        app:layout_constraintTop_toBottomOf="@+id/vet_txt1" />
 
     <TextView
         android:id="@+id/vet_txt8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="172dp"
-        android:layout_marginRight="172dp"
-        android:text="50000/="
+        android:layout_marginEnd="44dp"
+        android:text="BVSc (Hons) Dip. Tox "
         android:textColor="@color/white"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
