@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "138991200255",
+    "project_id": "inferno-dog-care-app",
+    "storage_bucket": "inferno-dog-care-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138991200255:android:6db8559d3b74305cb0a9ca",
+        "android_client_info": {
+          "package_name": "com.example.inferno_dog_care_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138991200255-majbdk52t8sbtt42th0na6v65vmdm9u7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBM-00_yKymKs2iNqBYHlazslF5akJO87s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "138991200255-majbdk52t8sbtt42th0na6v65vmdm9u7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
