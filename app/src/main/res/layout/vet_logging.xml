@@ -123,7 +123,7 @@
         app:srcCompat="@drawable/logo" />
 
     <EditText
-        android:id="@+id/txt_password"
+        android:id="@+id/txt_user_password"
         android:layout_width="359dp"
         android:layout_height="53dp"
         android:background="@drawable/round"
@@ -196,7 +196,7 @@
         app:srcCompat="@drawable/email_icon" />
 
     <Button
-        android:id="@+id/btn_login"
+        android:id="@+id/btn_user_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btn_login"
