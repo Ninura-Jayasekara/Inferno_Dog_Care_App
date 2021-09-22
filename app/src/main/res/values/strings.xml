@@ -8,12 +8,12 @@
     <string name="bmi_txt3">Breed</string>
     <string name="bmi_txt4">Weight (kg)</string>
     <string name="bmi_txt5">Height (cm)</string>
-    <string name="bmi_edit1">Selly</string>
-    <string name="bmi_edit2">Labrador</string>
-    <string name="bmi_edit3">40</string>
-    <string name="bmi_edit4">65</string>
+    <string name="bmi_edit1">Name</string>
+    <string name="bmi_edit2">Breed</string>
+    <string name="bmi_edit3">Weight</string>
+    <string name="bmi_edit4">Height</string>
     <string name="bmi_btn1">Calculate BMI</string>
-    <string name="bmi_ans">94.67</string>
+    <string name="bmi_ans">BMI VALUE</string>
     <string name="channel_choose_toolbar_name">Channel Your Veterinarian</string>
     <string name="channel_choose_view">Make An Appointment</string>
     <string name="channel_choose_viewapp">View Appointments</string>
@@ -56,6 +56,23 @@
     <string name="txt_amount">Amount (Rs)</string>
     <string name="btn_payment">MAKE PAYMENT</string>
     <string name="txt_topic">Payment Details</string>
+    <string name="vet_details_toolbar_name">Channel Your Veterinarian</string>
+    <string name="vet_details_txt1">You can channel your trusted veterinarian through our app easily. All the veterinarians are qualified and very experienced. Doctors are available everyday from 4.00 p.m. to 10.00 a.m.</string>
+    <string name="channel_toolbar_name">Channel Your Veterinarian</string>
+    <string name="channel_name">Name</string>
+    <string name="channel_txt_name">Name</string>
+    <string name="channel_txt_date">Date</string>
+    <string name="channel_txt_phone">Phone</string>
+    <string name="channel_date">Date</string>
+    <string name="channel_phone">Phone</string>
+    <string name="channel_btn_hold">HOLD</string>
+    <string name="channel_btn_payment">PAYMENT</string>
+    <string name="txt_channel_dis_name">Dr .Mishan Kavindu</string>
+    <string name="txt_channel_dis_deg">BVCs (Hons) Dip. Tox</string>
+    <string name="txt_channel_dis_reg">Registered vet surgeon 1234</string>
+    <string name="txt_channel_dis_details">No.12 , Gonawala Road, Kelaniya.  076 2458695 mishk@gmail.com Channeling Fee : Rs. 500.00 "</string>
+    <string name="bmi_edit">Gender</string>
+
 
 
     //Mishan
@@ -103,21 +120,6 @@
     <string name="walk_dogtxt5">Calories</string>
     <string name="walk_dogedit3">94.67</string>
 
-    <string name="vet_details_toolbar_name">Channel Your Veterinarian</string>
-    <string name="vet_details_txt1">You can channel your trusted veterinarian through our app easily. All the veterinarians are qualified and very experienced. Doctors are available everyday from 4.00 p.m. to 10.00 a.m.</string>
-    <string name="channel_toolbar_name">Channel Your Veterinarian</string>
-    <string name="channel_name">Name</string>
-    <string name="channel_txt_name">Name</string>
-    <string name="channel_txt_date">Date</string>
-    <string name="channel_txt_phone">Phone</string>
-    <string name="channel_date">Date</string>
-    <string name="channel_phone">Phone</string>
-    <string name="channel_btn_hold">HOLD</string>
-    <string name="channel_btn_payment">PAYMENT</string>
-    <string name="txt_channel_dis_name">Dr .Mishan Kavindu</string>
-    <string name="txt_channel_dis_deg">BVCs (Hons) Dip. Tox</string>
-    <string name="txt_channel_dis_reg">Registered vet surgeon 1234</string>
-    <string name="txt_channel_dis_details">No.12 , Gonawala Road, Kelaniya.  076 2458695 mishk@gmail.com Channeling Fee : Rs. 500.00 "</string>
 
     // ESHAN
     <string name="vet_reg">Veterinarian Registration</string>
@@ -168,4 +170,5 @@
     <string name="btn_login">LOGIN</string>
     <string name="txt_haveanaccount">Do you have an account ?</string>
     <string name="txt_signup">SIGN UP</string>
+
 </resources>

@@ -9,7 +9,7 @@
     tools:context=".MainActivity">
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/payment_toolbar"
+        android:id="@+id/appointment_details_toolbar"
         android:layout_width="409dp"
         android:layout_height="40dp"
         android:background="@color/white"
@@ -22,7 +22,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/payment_toolbar_name"
+        android:id="@+id/appointment_details_toolbar_name"
         android:layout_width="292dp"
         android:layout_height="64dp"
         android:gravity="center"
@@ -30,13 +30,13 @@
         android:textColor="@color/black"
         android:textSize="28sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/payment_toolbar"
-        app:layout_constraintEnd_toEndOf="@+id/payment_toolbar"
-        app:layout_constraintStart_toStartOf="@+id/payment_toolbar"
+        app:layout_constraintBottom_toBottomOf="@+id/appointment_details_toolbar"
+        app:layout_constraintEnd_toEndOf="@+id/appointment_details_toolbar"
+        app:layout_constraintStart_toStartOf="@+id/appointment_details_toolbar"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/txt_cardno"
+        android:id="@+id/txt_doctorname"
         android:layout_width="112dp"
         android:layout_height="41dp"
         android:background="@color/black"
@@ -52,7 +52,7 @@
         app:layout_constraintVertical_bias="0.14" />
 
     <TextView
-        android:id="@+id/txt_name"
+        android:id="@+id/txt_channelingfee"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/bmi_txt2"
@@ -67,7 +67,7 @@
         app:layout_constraintVertical_bias="0.213" />
 
     <TextView
-        android:id="@+id/txt_cvv"
+        android:id="@+id/txt_date"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/black"
@@ -83,7 +83,7 @@
         app:layout_constraintVertical_bias="0.286" />
 
     <TextView
-        android:id="@+id/txt_expire"
+        android:id="@+id/txt_ownerphone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/bmi_txt4"
@@ -98,7 +98,7 @@
         app:layout_constraintVertical_bias="0.367" />
 
     <TextView
-        android:id="@+id/txt_amount"
+        android:id="@+id/txt_ownername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/bmi_txt5"
@@ -113,7 +113,7 @@
         app:layout_constraintVertical_bias="0.45" />
 
     <EditText
-        android:id="@+id/paymentedit_cardno"
+        android:id="@+id/bmi_edit1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="3dp"
@@ -124,14 +124,14 @@
         android:hint="@string/bmi_edit1"
         android:inputType="textPersonName"
         android:textSize="20sp"
-        app:layout_constraintBaseline_toBaselineOf="@+id/txt_cardno"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txt_doctorname"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.617"
-        app:layout_constraintStart_toEndOf="@+id/txt_cardno"
+        app:layout_constraintStart_toEndOf="@+id/txt_doctorname"
         tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
-        android:id="@+id/paymentedit_cvv"
+        android:id="@+id/bmi_edit2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="3dp"
@@ -142,14 +142,14 @@
         android:hint="@string/bmi_edit2"
         android:inputType="textPersonName"
         android:textSize="20sp"
-        app:layout_constraintBaseline_toBaselineOf="@+id/txt_cvv"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txt_date"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.901"
-        app:layout_constraintStart_toEndOf="@+id/txt_cvv"
+        app:layout_constraintStart_toEndOf="@+id/txt_date"
         tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
-        android:id="@+id/paymentedit_expire"
+        android:id="@+id/bmi_edit3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="3dp"
@@ -160,10 +160,10 @@
         android:hint="@string/bmi_edit3"
         android:inputType="textPersonName"
         android:textSize="20sp"
-        app:layout_constraintBaseline_toBaselineOf="@+id/txt_expire"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txt_ownerphone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.775"
-        app:layout_constraintStart_toEndOf="@+id/txt_expire"
+        app:layout_constraintStart_toEndOf="@+id/txt_ownerphone"
         tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
@@ -178,14 +178,32 @@
         android:hint="@string/bmi_edit4"
         android:inputType="textPersonName"
         android:textSize="20sp"
-        app:layout_constraintBaseline_toBaselineOf="@+id/txt_amount"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txt_ownername"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.789"
-        app:layout_constraintStart_toEndOf="@+id/txt_amount"
+        app:layout_constraintStart_toEndOf="@+id/txt_ownername"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/bmi_edit"
+        android:layout_width="232dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="148dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/bmi_edit"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/txt_channelingfee"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="TouchTargetSizeCheck" />
 
     <Button
-        android:id="@+id/btn_payment"
+        android:id="@+id/bmi_btn1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/splash"
@@ -210,42 +228,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/bmimain" />
-
-    <EditText
-        android:id="@+id/bmi_edit5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:gravity="center"
-        android:hint="Selly's BMI value is:"
-        android:inputType="textPersonName"
-        android:textColorHint="@color/white"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.653" />
-
-    <EditText
-        android:id="@+id/bmi_ans"
-        android:layout_width="133dp"
-        android:layout_height="98dp"
-        android:background="@color/white"
-        android:ems="10"
-        android:gravity="center"
-        android:hint="@string/bmi_ans"
-        android:inputType="textPersonName"
-        android:textSize="34sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.798"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.815" />
 
     <ImageView
         android:id="@+id/buy_icon"
@@ -306,31 +288,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/profile" />
 
-    <Spinner
-        android:id="@+id/bmi_gender"
-        android:layout_width="232dp"
-        android:layout_height="30dp"
-        android:layout_marginTop="144dp"
-        android:layout_marginEnd="12dp"
-        android:layout_marginRight="12dp"
-        android:background="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="104dp"
-        android:layout_height="24dp"
-        android:layout_marginTop="144dp"
-        android:layout_marginEnd="44dp"
-        android:layout_marginRight="44dp"
-        android:text="Female"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="@+id/bmi_gender"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
@@ -342,5 +299,37 @@
         android:textColor="@color/roseGold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/bmi_ans"
+        android:layout_width="133dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="90.4"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.787"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.821" />
+
+    <TextView
+        android:id="@+id/display_name_txt"
+        android:layout_width="225dp"
+        android:layout_height="48dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.691" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
