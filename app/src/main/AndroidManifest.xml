@@ -19,6 +19,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainMenu" />
+        <activity android:name=".BmiCalculator" />
+        <activity android:name=".VetDetails" />
+        <activity android:name=".ChannelVet" />
+        <activity android:name=".AppointmentDetails" />
     </application>
 
 </manifest>
