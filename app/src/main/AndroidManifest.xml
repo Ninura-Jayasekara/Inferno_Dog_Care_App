@@ -23,6 +23,11 @@
         <activity android:name=".VetDetails" />
         <activity android:name=".ChannelVet" />
         <activity android:name=".AppointmentDetails" />
+        <activity android:name=".SellMain" />
+        <activity android:name=".SellPet" />
+        <activity android:name=".ViewSellAdvertisement" />
+        <activity android:name=".BuyPet" />
+        <activity android:name=".DogWalkMonitor" />
     </application>
 
 </manifest>

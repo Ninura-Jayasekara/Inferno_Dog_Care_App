@@ -52,6 +52,9 @@ public class MainMenu  extends AppCompatActivity implements View.OnClickListener
             switch (v.getId()){
                 case R.id.bmi:i=new Intent(this,BmiCalculator.class);startActivity(i);break;
                 case R.id.channelvet:i=new Intent(this,ChannelVet.class);startActivity(i);break;
+                case R.id.sellmain:i=new Intent(this,SellMain.class);startActivity(i);break;
+                case R.id.buymain:i=new Intent(this,BuyPet.class);startActivity(i);break;
+                case R.id.walkdog:i=new Intent(this,DogWalkMonitor.class);startActivity(i);break;
 
                 default:break;
             }

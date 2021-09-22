@@ -9,23 +9,16 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        setContentView(R.layout.bmi_calculator);
-//        setContentView(R.layout.main_menu);
-//        setContentView(R.layout.appointment_details);
-//          setContentView(R.layout.channelvet_choose);
-//        setContentView(R.layout.view_sellpet);
-//        setContentView(R.layout.buypet);
-//        setContentView(R.layout.main_sellpet);
-//        setContentView(R.layout.buy_profile);
-//        setContentView(R.layout.dog_walk);
-//        setContentView(R.layout.appointment_confirmation);
-//        setContentView(R.layout.login);
-//        setContentView(R.layout.user_login);
-//        setContentView(R.layout.user_reg);
-//        setContentView(R.layout.user_reg_dog);
-//        setContentView(R.layout.user_profile);
-//        setContentView(R.layout.adopt_dog);
-//        setContentView(R.layout.adopt_dogdetails);
-          setContentView(R.layout.food_calories);
+////        setContentView(R.layout.bmi_calculator);
+//       setContentView(R.layout.main_menu);
+////        setContentView(R.layout.appointment_details);
+////          setContentView(R.layout.channelvet_choose);
+////        setContentView(R.layout.view_sellpet);
+////        setContentView(R.layout.buypet);
+////        setContentView(R.layout.main_sellpet);
+////        setContentView(R.layout.buy_profile);
+////        setContentView(R.layout.dog_walk);
+// //       setContentView(R.layout.appointment_confirmation);
+//        setContentView(R.layout.splash_screen);
     }
 }
