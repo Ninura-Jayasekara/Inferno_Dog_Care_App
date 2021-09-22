@@ -138,7 +138,7 @@
         app:srcCompat="@drawable/buy" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/channel_choose_make"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginBottom="4dp"
@@ -149,7 +149,7 @@
         app:srcCompat="@drawable/home" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/channel_choose_show"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginBottom="4dp"
