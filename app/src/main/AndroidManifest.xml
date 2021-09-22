@@ -26,6 +26,8 @@
         <activity android:name=".SellMain" />
         <activity android:name=".SellPet" />
         <activity android:name=".ViewSellAdvertisement" />
+        <activity android:name=".BuyPet" />
+        <activity android:name=".DogWalkMonitor" />
     </application>
 
 </manifest>
