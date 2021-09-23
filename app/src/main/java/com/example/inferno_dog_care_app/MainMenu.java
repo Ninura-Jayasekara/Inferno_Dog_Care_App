@@ -56,6 +56,7 @@ public class MainMenu  extends AppCompatActivity implements View.OnClickListener
                 case R.id.buymain:i=new Intent(this,BuyPet.class);startActivity(i);break;
                 case R.id.walkdog:i=new Intent(this,DogWalkMonitor.class);startActivity(i);break;
 
+
                 default:break;
             }
 
