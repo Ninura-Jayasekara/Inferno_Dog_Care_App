@@ -46,7 +46,7 @@
         app:srcCompat="@drawable/mainsell" />
 
     <ImageView
-        android:id="@+id/imageView15"
+        android:id="@+id/sell_pet"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginTop="84dp"
@@ -57,7 +57,7 @@
         app:srcCompat="@drawable/dog1" />
 
     <ImageView
-        android:id="@+id/imageView16"
+        android:id="@+id/view_sell_pet"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginTop="48dp"
@@ -79,7 +79,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView15" />
+        app:layout_constraintTop_toBottomOf="@+id/sell_pet" />
 
     <TextView
         android:id="@+id/main_selltxt2"
@@ -93,7 +93,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView16" />
+        app:layout_constraintTop_toBottomOf="@+id/view_sell_pet" />
 
     <ImageView
         android:id="@+id/imageView18"

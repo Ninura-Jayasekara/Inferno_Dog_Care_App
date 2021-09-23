@@ -287,7 +287,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/channel_choose_show"
         android:layout_width="115dp"
         android:layout_height="121dp"
         android:layout_marginTop="12dp"
@@ -329,7 +329,7 @@
         app:srcCompat="@drawable/buy" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/channel_choose_make"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginStart="26dp"
@@ -350,7 +350,7 @@
         android:layout_marginBottom="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintStart_toEndOf="@+id/channel_choose_make"
         app:srcCompat="@drawable/profile" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

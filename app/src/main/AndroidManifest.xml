@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.inferno_dog_care_app">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -19,6 +21,22 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainMenu" />
+        <activity android:name=".BmiCalculator" />
+        <activity android:name=".VetDetails" />
+        <activity android:name=".ChannelVet" />
+        <activity android:name=".AppointmentDetails" />
+        <activity android:name=".SellMain" />
+        <activity android:name=".SellPet" />
+        <activity android:name=".ViewSellAdvertisement" />
+        <activity android:name=".BuyPet" />
+        <activity android:name=".DogWalkMonitor" />
+        <activity android:name=".PaymentDetails" />
+        <activity android:name=".AppointmentConfirmation" />
+        <activity android:name=".FoodCalculator" />
+        <activity android:name=".Login" />
+        <activity android:name=".VetLogin" />
+        <activity android:name=".UserLogin" />
+        <activity android:name=".AdoptDog" />
     </application>
 
 </manifest>

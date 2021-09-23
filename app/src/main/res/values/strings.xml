@@ -8,12 +8,12 @@
     <string name="bmi_txt3">Breed</string>
     <string name="bmi_txt4">Weight (kg)</string>
     <string name="bmi_txt5">Height (cm)</string>
-    <string name="bmi_edit1">Name</string>
-    <string name="bmi_edit2">Breed</string>
-    <string name="bmi_edit3">Weight</string>
-    <string name="bmi_edit4">Height</string>
+    <string name="bmi_edit1">Selly</string>
+    <string name="bmi_edit2">Labrador</string>
+    <string name="bmi_edit3">40</string>
+    <string name="bmi_edit4">65</string>
     <string name="bmi_btn1">Calculate BMI</string>
-    <string name="bmi_ans">BMI VALUE</string>
+    <string name="bmi_ans">94.67</string>
     <string name="channel_choose_toolbar_name">Channel Your Veterinarian</string>
     <string name="channel_choose_view">Make An Appointment</string>
     <string name="channel_choose_viewapp">View Appointments</string>
@@ -44,11 +44,11 @@
     <string name="btn_details_delete">Delete</string>
     <string name="txt_confirmmsg">Appointment Scheduled !</string>
     <string name="payment_toolbar_name">Channel Your Veterinarian</string>
-    <string name="paymentedit_cardno">4567 5678 3867 5611</string>
+    <string name="paymentedit_cardno">XXXX XXXX XXXX XXXX</string>
     <string name="paymentedit_name">Name</string>
     <string name="paymentedit_cvv">CVV</string>
     <string name="paymentedit_expire">mm/yy</string>
-    <string name="paymentedit_amount">500.00</string>
+    <string name="paymentedit_amount">Amount</string>
     <string name="txt_cardno">Card No</string>
     <string name="txt_name">Name</string>
     <string name="txt_cvv">CVV</string>
@@ -56,23 +56,7 @@
     <string name="txt_amount">Amount (Rs)</string>
     <string name="btn_payment">MAKE PAYMENT</string>
     <string name="txt_topic">Payment Details</string>
-    <string name="vet_details_toolbar_name">Channel Your Veterinarian</string>
-    <string name="vet_details_txt1">You can channel your trusted veterinarian through our app easily. All the veterinarians are qualified and very experienced. Doctors are available everyday from 4.00 p.m. to 10.00 a.m.</string>
-    <string name="channel_toolbar_name">Channel Your Veterinarian</string>
-    <string name="channel_name">Name</string>
-    <string name="channel_txt_name">Name</string>
-    <string name="channel_txt_date">Date</string>
-    <string name="channel_txt_phone">Phone</string>
-    <string name="channel_date">Date</string>
-    <string name="channel_phone">Phone</string>
-    <string name="channel_btn_hold">HOLD</string>
-    <string name="channel_btn_payment">PAYMENT</string>
-    <string name="txt_channel_dis_name">Dr .Mishan Kavindu</string>
-    <string name="txt_channel_dis_deg">BVCs (Hons) Dip. Tox</string>
-    <string name="txt_channel_dis_reg">Registered vet surgeon 1234</string>
-    <string name="txt_channel_dis_details">No.12 , Gonawala Road, Kelaniya.  076 2458695 mishk@gmail.com Channeling Fee : Rs. 500.00 "</string>
     <string name="bmi_edit">Gender</string>
-
 
 
     //Mishan
@@ -120,6 +104,21 @@
     <string name="walk_dogtxt5">Calories</string>
     <string name="walk_dogedit3">94.67</string>
 
+    <string name="vet_details_toolbar_name">Channel Your Veterinarian</string>
+    <string name="vet_details_txt1">You can channel your trusted veterinarian through our app easily. All the veterinarians are qualified and very experienced. Doctors are available everyday from 4.00 p.m. to 10.00 a.m.</string>
+    <string name="channel_toolbar_name">Channel Your Veterinarian</string>
+    <string name="channel_name">Name</string>
+    <string name="channel_txt_name">Name</string>
+    <string name="channel_txt_date">Date</string>
+    <string name="channel_txt_phone">Phone</string>
+    <string name="channel_date">Date</string>
+    <string name="channel_phone">Phone</string>
+    <string name="channel_btn_hold">HOLD</string>
+    <string name="channel_btn_payment">PAYMENT</string>
+    <string name="txt_channel_dis_name">Dr .Mishan Kavindu</string>
+    <string name="txt_channel_dis_deg">BVCs (Hons) Dip. Tox</string>
+    <string name="txt_channel_dis_reg">Registered vet surgeon 1234</string>
+    <string name="txt_channel_dis_details">No.12 , Gonawala Road, Kelaniya.  076 2458695 mishk@gmail.com Channeling Fee : Rs. 500.00 "</string>
 
     // ESHAN
     <string name="vet_reg">Veterinarian Registration</string>
@@ -170,5 +169,84 @@
     <string name="btn_login">LOGIN</string>
     <string name="txt_haveanaccount">Do you have an account ?</string>
     <string name="txt_signup">SIGN UP</string>
+
+    <!--manuka-->
+    <string name="txt_email">Email</string>
+    <string name="txt_signin">Do you have an account ?</string>
+    <string name="txt_btnsign">SIGN UP</string>
+    <string name="login_toolbar_name">Login</string>
+    <string name="user_reg_toolbar_name">User Registration</string>
+    <string name="txt_letsgetstarted">Let\'s Get Started..</string>
+    <string name="btn_user_reg">NEXT</string>
+    <string name="user_reg_dog_toolbar_name">User Registration</string>
+    <string name="txt_user_reg_dog">Your Dog</string>
+    <string name="txt_fname">First Name</string>
+    <string name="txt_lname">Last Name</string>
+    <string name="txt_gender">Gender</string>
+    <string name="txt_phone">Phone</string>
+    <string name="txt_email2">Email</string>
+    <string name="txt_password2">Password</string>
+    <string name="txt_dogname">Name</string>
+    <string name="txt_doggender">Gender</string>
+    <string name="txt_dogbreed">Breed</string>
+    <string name="txt_dogbday">Birth Day</string>
+    <string name="txt_dogcolor">Color</string>
+    <string name="btn_skip">SKIP</string>
+    <string name="btn_create_account">Create Account</string>
+    <string name="user_login_toolbar_name">User Login</string>
+    <string name="txt_vet_login">Veterinarian</string>
+    <string name="txt_user_login">User</string>
+    <string name="user_profile_toolbar_name">User Profile</string>
+    <string name="txt_userprofile_name">Name : Manuka Dahanayake</string>
+    <string name="txt_userprofile_gender">Gender : Male</string>
+    <string name="txt_userprofile_phone">Phone : 071 1234569</string>
+    <string name="txt_userprofile_email">Email : manuka@gmail.com</string>
+    <string name="txt_userprofile_dogname">Name : Selly</string>
+    <string name="txt_userprofile_dogbreed">Breed : Labrador Retriever</string>
+    <string name="txt_userprofile_doggender">Gender : Female</string>
+    <string name="txt_userprofile_dogbday">Birth Day : 12/12/18</string>
+    <string name="txt_userprofile_dogcolor">Color : White</string>
+    <string name="btn_userprofile_update">UPDATE ACCOUNT</string>
+    <string name="btn_userprofile_delete">DELETE ACCOUNT</string>
+    <string name="txt_user_password">Password</string>
+    <string name="btn_user_login">LOGIN</string>
+    <string name="food_calories_toolbar">Food Calories</string>
+    <string name="checkbox_food_calories1">Meat</string>
+    <string name="checkbox_food_calories2">Rice</string>
+    <string name="checkbox_food_calories3">Fish</string>
+    <string name="checkbox_food_calories4">Egg</string>
+    <string name="checkbox_food_calories5">Milk</string>
+    <string name="checkbox_food_calories6">Yoghurt</string>
+    <string name="txt_food_calories4">grams</string>
+    <string name="txt_food_calories5">grams</string>
+    <string name="txt_food_calories6">grams</string>
+    <string name="txt_food_calories7">quantity</string>
+    <string name="txt_food_calories8">mililiters</string>
+    <string name="txt_food_calories9">quantity</string>
+    <string name="btn_food_calories">CALCULATE</string>
+    <string name="txt_food_calories_colories3">Your Dog Had</string>
+    <string name="txt_food_calories_colories2">400</string>
+    <string name="txt_food_calories_colories">Calories</string>
+    <string name="adopt_dog_toolbar_name">Adopt A Dog</string>
+    <string name="txt_adoptdog_description">Adopted pets are just as loving, intelligent and loyal as purchased pets. You can get one of them for free and take care of them.</string>
+    <string name="txt_adoptdog_info1">Bella</string>
+    <string name="txt_adoptdog_info2">2 Months</string>
+    <string name="txt_adoptdog_info3">Timi</string>
+    <string name="txt_adoptdog_info4">1 Month</string>
+    <string name="txt_adoptdog_info5">Dingo</string>
+    <string name="txt_adoptdog_info6">2 Months</string>
+    <string name="adopt_dog_details_toolbar_name">Adopt A Dog</string>
+    <string name="txt_adoptdetails_name">Bella</string>
+    <string name="txt_adoptdetails1">Age : </string>
+    <string name="txt_adoptdetails6">2 Months</string>
+    <string name="txt_adoptdetails2">Gender : </string>
+    <string name="txt_adoptdetails7">Female</string>
+    <string name="txt_adoptdetails3">Color : </string>
+    <string name="txt_adoptdetails8">White and Brown</string>
+    <string name="txt_adoptdetails4">Weight :</string>
+    <string name="txt_adoptdetails9"> 3 Kg</string>
+    <string name="txt_adoptdetails5">Contact No :</string>
+    <string name="txt_adoptdetails10">076 3456789</string>
+
 
 </resources>
