@@ -25,7 +25,7 @@ public class MainMenu  extends AppCompatActivity implements View.OnClickListener
             walkdog = (ImageView)findViewById(R.id.walkdog) ;
             bmi = (ImageView)findViewById(R.id.bmi) ;
             foodcal = (ImageView)findViewById(R.id.foodcal) ;
-            adopt = (ImageView)findViewById(R.id.foodcal);
+            adopt = (ImageView)findViewById(R.id.adopt);
             buymain = (ImageView)findViewById(R.id.buymain) ;
             sellmain = (ImageView)findViewById(R.id.sellmain) ;
 
@@ -55,6 +55,10 @@ public class MainMenu  extends AppCompatActivity implements View.OnClickListener
                 case R.id.sellmain:i=new Intent(this,SellMain.class);startActivity(i);break;
                 case R.id.buymain:i=new Intent(this,BuyPet.class);startActivity(i);break;
                 case R.id.walkdog:i=new Intent(this,DogWalkMonitor.class);startActivity(i);break;
+                case R.id.foodcal:i=new Intent(this,FoodCalculator.class);startActivity(i);break;
+                case R.id.adopt:i=new Intent(this,AdoptDog.class);startActivity(i);break;
+                case R.id.login:i=new Intent(this,Login.class);startActivity(i);break;
+
 
 
                 default:break;

@@ -32,6 +32,11 @@
         <activity android:name=".DogWalkMonitor" />
         <activity android:name=".PaymentDetails" />
         <activity android:name=".AppointmentConfirmation" />
+        <activity android:name=".FoodCalculator" />
+        <activity android:name=".Login" />
+        <activity android:name=".VetLogin" />
+        <activity android:name=".UserLogin" />
+        <activity android:name=".AdoptDog" />
     </application>
 
 </manifest>
