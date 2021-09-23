@@ -60,7 +60,6 @@ public class MainMenu  extends AppCompatActivity implements View.OnClickListener
                 case R.id.login:i=new Intent(this,Login.class);startActivity(i);break;
 
 
-
                 default:break;
             }
 

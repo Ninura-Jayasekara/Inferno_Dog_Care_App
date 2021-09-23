@@ -4,8 +4,6 @@
     
     <uses-permission android:name="android.permission.INTERNET"/>
 
-    <uses-permission android:name="android.permission.INTERNET"/>
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -28,7 +26,6 @@
         <activity android:name=".ChannelVet" />
         <activity android:name=".AppointmentDetails" />
         <activity android:name=".SellMain" />
-        <activity android:name=".SellPet" />
         <activity android:name=".ViewSellAdvertisement" />
         <activity android:name=".BuyPet" />
         <activity android:name=".DogWalkMonitor" />
@@ -39,6 +36,7 @@
         <activity android:name=".VetLogin" />
         <activity android:name=".UserLogin" />
         <activity android:name=".AdoptDog" />
+        <activity android:name=".SellPet" />
     </application>
 
 </manifest>
