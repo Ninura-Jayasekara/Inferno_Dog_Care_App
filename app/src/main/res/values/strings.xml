@@ -94,7 +94,7 @@
     <string name="walk_dogtxt1">Calorie Burner Calculator</string>
     <string name="walk_dogtxt2">Weight (kg)</string>
     <string name="walk_dogtxt3">Walk your dog everyday to ensure your dogs health and happiness.</string>
-    <string name="walk_dogedit2">02:00</string>
+    <!--string name="walk_dogedit2">02:00</string-->
     <string name="walk_dogtxt4">Your dog burned</string>
     <string name="walk_dogedit1">10</string>
     <string name="walk_dogbtn1">START</string>

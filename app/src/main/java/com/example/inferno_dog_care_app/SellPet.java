@@ -72,21 +72,21 @@ public class SellPet extends AppCompatActivity {
                 UploadData (sell_edit1,sell_edit2,sell_edit3,sell_edit4,sell_edit5,sell_edit6,sell_edit7);
 
                 //redirecting
-                openViewSellAdvertisement();
+                openHome();
 
             }
         });
 
     }
-    public void openViewSellAdvertisement()
+    public void openHome()
     {
-        Intent intent = new Intent(this,ViewSellAdvertisement.class);
+        Intent intent = new Intent(this,MainMenu.class);
         startActivity(intent);
     }
     private void UploadData(String sell_edit1, String sell_edit2, String sell_edit3, String sell_edit4, Integer sell_edit5, String sell_edit6, Double sell_edit7) {
 
         //set title to progress bar
-        pd.setTitle("Uploading Selling Details");
+        pd.setTitle("Advertisement Is Added Successfully!");
 
         //show progress bar when user click submit button
         pd.show();
@@ -114,7 +114,7 @@ public class SellPet extends AppCompatActivity {
                         //this will be called when data is added successfully
 
                         pd.dismiss();
-                        Toast.makeText(SellPet.this, "Uploaded...", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(SellPet.this, "Advertisement Uploaded...", Toast.LENGTH_SHORT).show();
 
                     }
                 })
