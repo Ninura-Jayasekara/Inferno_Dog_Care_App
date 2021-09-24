@@ -41,8 +41,6 @@ public class PaymentDetails extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.vet_payment);
 
-
-
         //Initialize views with its xml
 
             mCardNo = findViewById(R.id.paymentedit_cardno);
