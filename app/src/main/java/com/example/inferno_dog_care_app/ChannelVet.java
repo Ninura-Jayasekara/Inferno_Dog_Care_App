@@ -18,7 +18,7 @@ public class ChannelVet extends AppCompatActivity implements View.OnClickListene
 
         //defining views
         channel_choose_make = (ImageView)findViewById(R.id.channel_choose_make) ;
-        channel_choose_show = (ImageView)findViewById(R.id.channel_choose_show) ;
+        channel_choose_show = (ImageView)findViewById(R.id.add_sell_img) ;
 
         //add click listners to views
 
@@ -33,7 +33,7 @@ public class ChannelVet extends AppCompatActivity implements View.OnClickListene
 
         switch (v.getId()){
             case R.id.channel_choose_make:i=new Intent(this,VetDetails.class);startActivity(i);break;
-            case R.id.channel_choose_show:i=new Intent(this,AppointmentDetails.class);startActivity(i);break;
+            case R.id.add_sell_img:i=new Intent(this,AppointmentDetails.class);startActivity(i);break;
             default:break;
         }
     }
