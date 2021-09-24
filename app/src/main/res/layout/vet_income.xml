@@ -157,7 +157,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/name"
+        app:layout_constraintTop_toBottomOf="@+id/modelspecial"
         app:layout_constraintVertical_bias="0.0" />
 
     <EditText
@@ -178,7 +178,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/name"
+        app:layout_constraintStart_toEndOf="@+id/modelspecial"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.189" />
 
@@ -290,7 +290,7 @@
         app:layout_constraintVertical_bias="0.087" />
 
     <EditText
-        android:id="@+id/name"
+        android:id="@+id/modelspecial"
         android:layout_width="220dp"
         android:layout_height="70dp"
         android:background="@android:color/darker_gray"
