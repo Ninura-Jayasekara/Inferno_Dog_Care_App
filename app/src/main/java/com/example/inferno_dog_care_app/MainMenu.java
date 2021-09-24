@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainMenu  extends AppCompatActivity implements View.OnClickListener {
 
+    //Views
     private ImageView login, profile, channelvet, walkdog, bmi, foodcal, adopt, buymain, sellmain;
 
     @Override
@@ -45,6 +46,7 @@ public class MainMenu  extends AppCompatActivity implements View.OnClickListener
 
         }
 
+        //On Click method
         @Override
         public void onClick(View v) {
             Intent i;
@@ -58,6 +60,7 @@ public class MainMenu  extends AppCompatActivity implements View.OnClickListener
                 case R.id.foodcal:i=new Intent(this,FoodCalculator.class);startActivity(i);break;
                 case R.id.adopt:i=new Intent(this,AdoptDog.class);startActivity(i);break;
                 case R.id.login:i=new Intent(this,Login.class);startActivity(i);break;
+                case R.id.profile:i=new Intent(this,PaymentDetails.class);startActivity(i);break;
 
 
 

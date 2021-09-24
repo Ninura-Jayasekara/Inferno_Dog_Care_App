@@ -77,18 +77,20 @@ public class PaymentDetails extends AppCompatActivity {
                     //function call to upload data
                         UploadData (paymentedit_cardno, paymentedit_name, paymentedit_cvv, paymentedit_expire, paymentedit_amount);
 
-                        //redirecting
-                    openAppointmentConfirmation();
+
 
                 }
             });
 
     }
+    //Redirect Do Confirmation page method
     public void openAppointmentConfirmation()
     {
         Intent intent = new Intent(this,AppointmentConfirmation.class);
         startActivity(intent);
     }
+
+    //Upload data to database method
     private void UploadData(String paymentedit_cardno, String paymentedit_name, String paymentedit_cvv, String paymentedit_expire, String paymentedit_amount) {
 
         //set title to progress bar
@@ -119,6 +121,8 @@ public class PaymentDetails extends AppCompatActivity {
                             
                             pd.dismiss();
                             Toast.makeText(PaymentDetails.this, "Verified...", Toast.LENGTH_SHORT).show();
+                            //redirecting
+                            openAppointmentConfirmation();
 
                         }
                     })
