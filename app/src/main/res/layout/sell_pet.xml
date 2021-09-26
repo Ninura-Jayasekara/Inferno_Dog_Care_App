@@ -287,18 +287,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:id="@+id/add_sell_img"
-        android:layout_width="115dp"
-        android:layout_height="121dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginRight="50dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sell_edit7"
-        app:srcCompat="@drawable/sellimg" />
-
-    <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/homeicon"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginBottom="4dp"
@@ -307,40 +296,40 @@
         app:srcCompat="@drawable/home" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/sellicon"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginStart="26dp"
         android:layout_marginLeft="26dp"
         android:layout_marginBottom="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintStart_toEndOf="@+id/homeicon"
         app:srcCompat="@drawable/sell" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/buyicon"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginStart="26dp"
         android:layout_marginLeft="26dp"
         android:layout_marginBottom="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintStart_toEndOf="@+id/sellicon"
         app:srcCompat="@drawable/buy" />
 
     <ImageView
-        android:id="@+id/channel_choose_make"
+        android:id="@+id/appoinmenticon"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginStart="26dp"
         android:layout_marginLeft="26dp"
         android:layout_marginBottom="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toEndOf="@+id/buyicon"
         app:srcCompat="@drawable/appoinment" />
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/profileicon"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginStart="26dp"
@@ -350,7 +339,18 @@
         android:layout_marginBottom="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/channel_choose_make"
+        app:layout_constraintStart_toEndOf="@+id/appoinmenticon"
         app:srcCompat="@drawable/profile" />
+
+    <ImageView
+        android:id="@+id/add_sell_img"
+        android:layout_width="125dp"
+        android:layout_height="127dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.63"
+        app:layout_constraintStart_toEndOf="@+id/sell_img"
+        app:layout_constraintTop_toBottomOf="@+id/sell_edit7"
+        app:srcCompat="@drawable/sellimg" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
