@@ -26,7 +26,7 @@ public class VetAdapter extends RecyclerView.Adapter<VetAdapter.VetViewHolder> {
     @Override
     public VetAdapter.VetViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
 
-        View v = LayoutInflater.from(context).inflate(R.layout.item,parent,false);
+        View v = LayoutInflater.from(context).inflate(R.layout.vet_item,parent,false);
 
         return new VetViewHolder(v);
     }

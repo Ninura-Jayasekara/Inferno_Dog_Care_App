@@ -163,9 +163,7 @@ public class SellPet extends AppCompatActivity {
         final ProgressDialog pd = new ProgressDialog(this);
         pd.setTitle("Uploading Image...");
         pd.show();
-
         final String pid = UUID.randomUUID().toString();
-        // Create a reference to "mountains.jpg"
         StorageReference mountainsRef = storageReference.child("images/"+ pid);
 
        mountainsRef.putFile(imageUri)
@@ -190,13 +188,6 @@ public class SellPet extends AppCompatActivity {
                         pd.setMessage("Percentage: " + (int) progressPercent + "%");
                     }
                 });
-
-        // Create a reference to 'images/mountains.jpg'
-        //StorageReference mountainImagesRef = storageRef.child("images/mountains.jpg");
-
-        // While the file names are the same, the references point to different files
-       // mountainsRef.getName().equals(mountainImagesRef.getName());    // true
-       // mountainsRef.getPath().equals(mountainImagesRef.getPath());    // false
     }
 
     public void openHome()
