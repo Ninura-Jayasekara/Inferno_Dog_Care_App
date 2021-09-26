@@ -14,7 +14,6 @@
         android:ems="10"
         android:gravity="center"
         android:inputType="textPersonName"
-        android:text="@string/doc_description3"
         android:textColor="@color/white"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -321,21 +320,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.588" />
-
-    <TextView
-        android:id="@+id/dr"
-        android:layout_width="41dp"
-        android:layout_height="32dp"
-        android:text="@string/dr"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="26sp"
-        android:textStyle="bold|italic"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.327"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.114" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

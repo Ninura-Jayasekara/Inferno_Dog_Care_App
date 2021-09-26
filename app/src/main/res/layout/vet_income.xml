@@ -360,7 +360,6 @@
         android:id="@+id/income_amount"
         android:layout_width="115dp"
         android:layout_height="49dp"
-        android:text="@string/income_amount"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
