@@ -37,6 +37,9 @@
         <activity android:name=".UserLogin" />
         <activity android:name=".AdoptDog" />
         <activity android:name=".SellPet" />
+        <activity android:name=".VetChannel" />
+        <activity android:name=".AppointmentHold" />
+
     </application>
 
 </manifest>
