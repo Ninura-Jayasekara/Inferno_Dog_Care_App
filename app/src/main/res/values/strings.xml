@@ -123,8 +123,7 @@
     // ESHAN
     <string name="vet_reg">Veterinarian Registration</string>
     <string name="vet_next">Next</string>
-    <string name="f_name">First Name</string>
-    <string name="l_name">Last Name</string>
+    <string name="f_name">Name</string>
     <string name="gender">Gender</string>
     <string name="address">Address</string>
     <string name="phone">Phone</string>
@@ -134,7 +133,7 @@
     <string name="prof_info">Professional Information</string>
     <string name="reg_no">BVSc Registration No</string>
     <string name="reg_year">Year of Registration</string>
-    <string name="specification">Specification</string>
+    <string name="specification">Specialization</string>
     <string name="description">Description</string>
     <string name="appointments">Appointments</string>
     <string name="y_appointment">Your Appointments</string>
@@ -151,9 +150,9 @@
     <string name="calc_income">Calculate Channelling Income</string>
     <string name="income">Income :</string>
     <string name="vet_profile">Veterinarian Profile</string>
-    <string name="doc_name">DR. MISHAN KAVINDU</string>
+    <string name="doc_name"> MISHAN KAVINDU</string>
     <string name="doc_description">BVSc (Hons) Dip. Tox</string>
-    <string name="doc_description2">Registered Vet. Surgeon 1234</string>
+    <string name="doc_description2">Registered Vet. Surgeon </string>
     <string name="detail1">Male</string>
     <string name="detail2">No12, Gonawala Road, Kelaniya</string>
     <string name="detail3">076-2458695</string>
@@ -169,6 +168,9 @@
     <string name="btn_login">LOGIN</string>
     <string name="txt_haveanaccount">Do you have an account ?</string>
     <string name="txt_signup">SIGN UP</string>
+    <string name="dr">DR.</string>
+    <string name="income_amount">2000</string>
+
 
     <!--manuka-->
     <string name="txt_email">Email</string>
@@ -247,6 +249,8 @@
     <string name="txt_adoptdetails9"> 3 Kg</string>
     <string name="txt_adoptdetails5">Contact No :</string>
     <string name="txt_adoptdetails10">076 3456789</string>
+    <string name="doc_description3">1234</string>
+
 
 
 </resources>

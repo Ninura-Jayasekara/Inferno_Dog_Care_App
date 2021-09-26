@@ -58,6 +58,7 @@ public class MainMenu  extends AppCompatActivity implements View.OnClickListener
                 case R.id.foodcal:i=new Intent(this,FoodCalculator.class);startActivity(i);break;
                 case R.id.adopt:i=new Intent(this,AdoptDog.class);startActivity(i);break;
                 case R.id.login:i=new Intent(this,Login.class);startActivity(i);break;
+                case R.id.profile:i=new Intent(this,VetRegistation.class);startActivity(i);break;
 
 
 

@@ -37,6 +37,10 @@
         <activity android:name=".VetLogin" />
         <activity android:name=".UserLogin" />
         <activity android:name=".AdoptDog" />
+        <activity android:name=".VetRegistation" />
+        <activity android:name=".VetProfessionalDetails" />
+        <activity android:name=".VetProfile" />
+        <activity android:name=".VetIncome" />
     </application>
 
 </manifest>
