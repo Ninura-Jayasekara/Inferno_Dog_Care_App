@@ -51,17 +51,6 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView19"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="232dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/sell_background" />
-
-    <ImageView
         android:id="@+id/imageView23"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -73,40 +62,7 @@
         app:srcCompat="@drawable/sell_background" />
 
     <ImageView
-        android:id="@+id/imageView20"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="116dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/sell_box" />
-
-    <ImageView
-        android:id="@+id/imageView21"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="256dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/sell_box" />
-
-    <ImageView
-        android:id="@+id/imageView24"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="388dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/sell_box" />
-
-    <ImageView
-        android:id="@+id/imageView25"
+        android:id="@+id/homeicon"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginBottom="4dp"
@@ -115,40 +71,40 @@
         app:srcCompat="@drawable/home" />
 
     <ImageView
-        android:id="@+id/imageView28"
+        android:id="@+id/sellicon"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginStart="26dp"
         android:layout_marginLeft="26dp"
         android:layout_marginBottom="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView25"
+        app:layout_constraintStart_toEndOf="@+id/homeicon"
         app:srcCompat="@drawable/sell" />
 
     <ImageView
-        android:id="@+id/imageView29"
+        android:id="@+id/buyicon"
         android:layout_width="60dp"
         android:layout_height="63dp"
         android:layout_marginStart="26dp"
         android:layout_marginLeft="26dp"
         android:layout_marginBottom="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView28"
+        app:layout_constraintStart_toEndOf="@+id/sellicon"
         app:srcCompat="@drawable/buy" />
 
     <ImageView
-        android:id="@+id/imageView30"
+        android:id="@+id/appoinmenticon"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginStart="26dp"
         android:layout_marginLeft="26dp"
         android:layout_marginBottom="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView29"
+        app:layout_constraintStart_toEndOf="@+id/buyicon"
         app:srcCompat="@drawable/appoinment" />
 
     <ImageView
-        android:id="@+id/imageView31"
+        android:id="@+id/profileicon"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginEnd="2dp"
@@ -156,118 +112,17 @@
         android:layout_marginBottom="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView30"
+        app:layout_constraintStart_toEndOf="@+id/appoinmenticon"
         app:srcCompat="@drawable/profile" />
 
-    <ImageView
-        android:id="@+id/imageView32"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginTop="248dp"
-        app:layout_constraintStart_toStartOf="@+id/imageView20"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/sell_lab" />
-
-    <ImageView
-        android:id="@+id/imageView33"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginTop="388dp"
-        app:layout_constraintStart_toStartOf="@+id/imageView21"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/sell_germ" />
-
-    <ImageView
-        android:id="@+id/imageView34"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginTop="524dp"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="414dp"
+        android:layout_height="437dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/sell_rotw" />
-
-    <TextView
-        android:id="@+id/vet_txt1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="268dp"
-        android:layout_marginEnd="72dp"
-        android:layout_marginRight="72dp"
-        android:text="Labrador Puppies"
-        android:textColor="@color/white"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/vet_txt4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="404dp"
-        android:layout_marginEnd="76dp"
-        android:layout_marginRight="76dp"
-        android:text="German Sherpard"
-        android:textColor="@color/white"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/vet_txt7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="540dp"
-        android:layout_marginEnd="76dp"
-        android:layout_marginRight="76dp"
-        android:text="Rotwiller Puppies"
-        android:textColor="@color/white"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/vet_txt2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="172dp"
-        android:layout_marginRight="172dp"
-        android:text="40000/="
-        android:textColor="@color/white"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/vet_txt1" />
-
-    <TextView
-        android:id="@+id/vet_txt5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="172dp"
-        android:layout_marginRight="172dp"
-        android:text="30000/="
-        android:textColor="@color/white"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/vet_txt4" />
-
-    <TextView
-        android:id="@+id/vet_txt8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="172dp"
-        android:layout_marginRight="172dp"
-        android:text="50000/="
-        android:textColor="@color/white"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/vet_txt7" />
+        app:layout_constraintTop_toBottomOf="@+id/vet_details_txt1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
