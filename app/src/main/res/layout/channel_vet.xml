@@ -109,7 +109,7 @@
         app:srcCompat="@drawable/vetchooseback" />
 
     <EditText
-        android:id="@+id/view_count"
+        android:id="@+id/channel_name"
         android:layout_width="230dp"
         android:layout_height="48dp"
         android:layout_marginTop="400dp"
@@ -198,7 +198,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/channel_txt_date"
-        app:layout_constraintTop_toBottomOf="@+id/view_count" />
+        app:layout_constraintTop_toBottomOf="@+id/channel_name" />
 
     <Button
         android:id="@+id/channel_btn_hold"
