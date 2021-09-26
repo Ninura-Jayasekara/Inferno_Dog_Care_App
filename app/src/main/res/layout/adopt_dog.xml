@@ -103,69 +103,6 @@
         app:layout_constraintTop_toTopOf="@+id/adopt_dog_toolbar"
         app:srcCompat="@drawable/adoptdog_background" />
 
-    <ImageView
-        android:id="@+id/img_adoptdog_box2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="110dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/adopt_dog_toolbar"
-        app:srcCompat="@drawable/adoptdog_box" />
-
-    <ImageView
-        android:id="@+id/img_adoptdog_box1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="250dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/adopt_dog_toolbar"
-        app:srcCompat="@drawable/adoptdog_box" />
-
-    <ImageView
-        android:id="@+id/img_adoptdog_box3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="390dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/adopt_dog_toolbar"
-        app:srcCompat="@drawable/adoptdog_box" />
-
-    <TextView
-        android:id="@+id/txt_adoptdog_info3"
-        android:layout_width="255dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="388dp"
-        android:text="@string/txt_adoptdog_info3"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="34sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/adopt_dog_toolbar"
-        app:layout_constraintHorizontal_bias="0.877"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/txt_adoptdog_info5"
-        android:layout_width="255dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="528dp"
-        android:text="@string/txt_adoptdog_info5"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="34sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/adopt_dog_toolbar"
-        app:layout_constraintHorizontal_bias="0.877"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <TextView
         android:id="@+id/txt_adoptdog_description"
         android:layout_width="384dp"
@@ -182,97 +119,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/img_adoptdog1"
-        android:layout_width="90dp"
-        android:layout_height="90dp"
-        android:layout_marginTop="248dp"
-        android:rotationX="180"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="404dp"
+        android:layout_height="401dp"
+        android:layout_marginTop="236dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.09"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/adoptdog3" />
-
-    <ImageView
-        android:id="@+id/img_adoptdog3"
-        android:layout_width="90dp"
-        android:layout_height="90dp"
-        android:layout_marginTop="530dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.09"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/adoptdog1" />
-
-    <ImageView
-        android:id="@+id/img_adoptdog2"
-        android:layout_width="90dp"
-        android:layout_height="90dp"
-        android:layout_marginTop="388dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.09"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/adoptdog2" />
-
-    <TextView
-        android:id="@+id/txt_adoptdog_info1"
-        android:layout_width="255dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="248dp"
-        android:text="@string/txt_adoptdog_info1"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="34sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/adopt_dog_toolbar"
-        app:layout_constraintHorizontal_bias="0.877"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/txt_adoptdog_info2"
-        android:layout_width="255dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="296dp"
-        android:text="@string/txt_adoptdog_info2"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/adopt_dog_toolbar"
-        app:layout_constraintHorizontal_bias="0.877"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/txt_adoptdog_info4"
-        android:layout_width="255dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="436dp"
-        android:text="@string/txt_adoptdog_info4"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/adopt_dog_toolbar"
-        app:layout_constraintHorizontal_bias="0.877"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/txt_adoptdog_info6"
-        android:layout_width="255dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="580dp"
-        android:text="@string/txt_adoptdog_info6"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/adopt_dog_toolbar"
-        app:layout_constraintHorizontal_bias="0.877"
+        app:layout_constraintHorizontal_bias="0.924"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

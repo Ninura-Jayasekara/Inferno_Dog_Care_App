@@ -122,7 +122,7 @@
         android:id="@+id/txt_userprofile_name"
         android:layout_width="294dp"
         android:layout_height="32dp"
-        android:layout_marginTop="204dp"
+        android:layout_marginTop="215dp"
         android:text="@string/txt_userprofile_name"
         android:textColor="@color/white"
         android:textSize="16sp"
@@ -200,34 +200,8 @@
         android:id="@+id/txt_userprofile_gender"
         android:layout_width="294dp"
         android:layout_height="32dp"
-        android:layout_marginTop="236dp"
+        android:layout_marginTop="250dp"
         android:text="@string/txt_userprofile_gender"
-        android:textColor="@color/white"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="@+id/adopt_dog_toolbar"
-        app:layout_constraintHorizontal_bias="0.275"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/txt_userprofile_phone"
-        android:layout_width="294dp"
-        android:layout_height="32dp"
-        android:layout_marginTop="268dp"
-        android:text="@string/txt_userprofile_phone"
-        android:textColor="@color/white"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="@+id/adopt_dog_toolbar"
-        app:layout_constraintHorizontal_bias="0.275"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/txt_userprofile_email"
-        android:layout_width="294dp"
-        android:layout_height="32dp"
-        android:layout_marginTop="300dp"
-        android:text="@string/txt_userprofile_email"
         android:textColor="@color/white"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="@+id/adopt_dog_toolbar"
@@ -296,6 +270,64 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/userprofile_img" />
+
+    <EditText
+        android:id="@+id/txt_userprofile_phone"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="268dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/txt_userprofile_phone"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txt_userprofile_email"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="299dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/txt_userprofile_email"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/useremail"
+        android:layout_width="64dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="313dp"
+        android:text="@string/useremail"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.092"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/userphone"
+        android:layout_width="64dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="280dp"
+        android:text="@string/userphone"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.092"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.inferno_dog_care_app">
-    
+
     <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
@@ -26,6 +26,7 @@
         <activity android:name=".ChannelVet" />
         <activity android:name=".AppointmentDetails" />
         <activity android:name=".SellMain" />
+        <activity android:name=".SellPet" />
         <activity android:name=".ViewSellAdvertisement" />
         <activity android:name=".BuyPet" />
         <activity android:name=".DogWalkMonitor" />
@@ -36,7 +37,13 @@
         <activity android:name=".VetLogin" />
         <activity android:name=".UserLogin" />
         <activity android:name=".AdoptDog" />
-        <activity android:name=".SellPet" />
+        <activity android:name=".UserRegister" />
+        <activity android:name=".DogRegister" />
+        <activity android:name=".UserProfile" />
+        <activity android:name=".VetProfile" />
+        <activity android:name=".VetRegistation" />
+        <activity android:name=".VetProfessionalDetails" />
+        <activity android:name=".VetIncome" />
         <activity android:name=".VetChannel" />
         <activity android:name=".AdvertisementProfile" />
     </application>

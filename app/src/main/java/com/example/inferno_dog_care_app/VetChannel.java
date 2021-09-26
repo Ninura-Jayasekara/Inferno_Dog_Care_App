@@ -6,6 +6,7 @@ package com.example.inferno_dog_care_app;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -122,14 +123,27 @@ public class VetChannel extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 isHold=false;
+
+                //Validation
+
+                if(!TextUtils.isEmpty(cName.getText().toString())
+                        && !TextUtils.isEmpty(cDate.getText().toString())
+                        && !TextUtils.isEmpty(cPhone.getText().toString())
+                       ){
                 //input data
                 channel_name = cName.getText().toString().trim();
                 channel_date = cDate.getText().toString().trim();
                 channel_phone = cPhone.getText().toString().trim();
 
+                    //function call to upload data
+                    UploadData ();
 
-                //function call to upload data
-                UploadData ();
+
+                }else{
+                    Toast.makeText(VetChannel.this, "Empty Fields Not Allowed!", Toast.LENGTH_LONG).show();
+                }
+
+
 
 
 
@@ -195,11 +209,19 @@ public class VetChannel extends AppCompatActivity {
                         //this will be called when data is added successfully
 
                         pd.dismiss();
-                        Toast.makeText(VetChannel.this, "Verified...", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(VetChannel.this, "Appointment Place...", Toast.LENGTH_SHORT).show();
                         //redirecting
                         if(isHold){
+
+                            //Validation
+                            if(!TextUtils.isEmpty(cName.getText().toString())
+                                    && !TextUtils.isEmpty(cDate.getText().toString())
+                                    && !TextUtils.isEmpty(cPhone.getText().toString())
+                            ){
                                 openAppointment();
-                            }
+                            }else{
+                                Toast.makeText(VetChannel.this, "Empty Fields Not Allowed!", Toast.LENGTH_LONG).show();
+                            }}
                             else{
                                 openPaymentDetails();
                             }

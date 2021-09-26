@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black">
+    android:background="@color/black"
+    android:textAlignment="center">
 
     <EditText
         android:id="@+id/c4_d"
@@ -326,7 +327,7 @@
         android:id="@+id/display_income"
         android:layout_width="350dp"
         android:layout_height="50dp"
-        android:layout_marginTop="592dp"
+        android:layout_marginTop="588dp"
         android:background="@color/white"
         android:ems="10"
         android:gravity="center"
@@ -336,22 +337,37 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/income"
-        android:layout_width="150dp"
-        android:layout_height="50dp"
+        android:layout_width="138dp"
+        android:layout_height="55dp"
         android:gravity="center"
         android:text="@string/income"
         android:textColor="@color/black"
-        android:textSize="20sp"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/sell_pet"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.172"
+        app:layout_constraintHorizontal_bias="0.107"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.892" />
+        app:layout_constraintVertical_bias="0.898" />
+
+    <TextView
+        android:id="@+id/income_amount"
+        android:layout_width="115dp"
+        android:layout_height="49dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.76"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.906" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
