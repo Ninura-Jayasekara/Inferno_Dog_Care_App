@@ -8,10 +8,27 @@
     android:background="@color/black">
 
     <TextView
+        android:id="@+id/txt"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="8dp"
+        android:text="Vet Registration No"
+        android:textAlignment="gravity"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.617"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.213" />
+
+    <TextView
         android:id="@+id/txt_channel_dis_details"
         android:layout_width="314dp"
         android:layout_height="222dp"
-        android:layout_marginTop="164dp"
+        android:layout_marginTop="380dp"
         android:gravity="center"
         android:text="@string/txt_channel_dis_details"
         android:textAlignment="center"
@@ -25,30 +42,33 @@
 
     <TextView
         android:id="@+id/txt_channel_dis_reg"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/txt_channel_dis_reg"
+        android:layout_width="49dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="gravity"
         android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.896"
+        app:layout_constraintHorizontal_bias="0.909"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.197" />
+        app:layout_constraintVertical_bias="0.211" />
 
     <TextView
         android:id="@+id/txt_channel_dis_deg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
         android:text="@string/txt_channel_dis_deg"
+        android:textAlignment="textStart"
         android:textColor="@color/white"
         android:textSize="24sp"
         android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.806"
+        app:layout_constraintHorizontal_bias="0.75"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.153" />
@@ -274,7 +294,9 @@
         android:id="@+id/txt_channel_dis_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
         android:text="@string/txt_channel_dis_name"
+        android:textAlignment="viewStart"
         android:textColor="@color/white"
         android:textSize="28sp"
         android:textStyle="bold"
@@ -297,5 +319,58 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/vet1" />
+
+    <TextView
+        android:id="@+id/txt_channel_dis_phone"
+        android:layout_width="287dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="244dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_channel_dis_channel"
+        android:layout_width="287dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="300dp"
+        android:text="Chanelling Fee :Rs. 500.00"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_channel_dis_address"
+        android:layout_width="287dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="216dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_channel_dis_email"
+        android:layout_width="287dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="272dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

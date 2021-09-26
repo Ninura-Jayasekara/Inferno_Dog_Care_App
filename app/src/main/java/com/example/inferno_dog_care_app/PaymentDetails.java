@@ -1,11 +1,16 @@
 package com.example.inferno_dog_care_app;
 
+//IT20175498
+//Add payment details
+
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 
@@ -16,7 +21,6 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.firestore.FirebaseFirestore;
-import com.google.firebase.ktx.Firebase;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -29,13 +33,20 @@ public class PaymentDetails extends AppCompatActivity {
     EditText mCardNo, mName, mCvv, mExpire, mAmount;
     Button mPaymentBtn;
 
+    String paymentedit_cardno;
+    String paymentedit_name;
+    String paymentedit_cvv;
+    String paymentedit_expire;
+    String paymentedit_amount;
+
+
     //progress dialog
 
-    ProgressDialog pd;
+        ProgressDialog pd;
 
     //firestore instance
 
-    FirebaseFirestore db;
+        FirebaseFirestore db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,28 +78,44 @@ public class PaymentDetails extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
 
+                    //validation
+                    if(!TextUtils.isEmpty(mCardNo.getText().toString())
+                            && !TextUtils.isEmpty(mName.getText().toString())
+                            && !TextUtils.isEmpty(mCvv.getText().toString())
+                            && !TextUtils.isEmpty(mExpire.getText().toString())
+                            && !TextUtils.isEmpty(mAmount.getText().toString())){
+
                     //input data
-                        String paymentedit_cardno = mCardNo.getText().toString().trim();
-                        String paymentedit_name = mName.getText().toString().trim();
-                        String paymentedit_cvv = mCvv.getText().toString().trim();
-                        String paymentedit_expire = mExpire.getText().toString().trim();
-                        String paymentedit_amount = mAmount.getText().toString().trim();
+                        paymentedit_cardno = mCardNo.getText().toString().trim();
+                        paymentedit_name = mName.getText().toString().trim();
+                        paymentedit_cvv = mCvv.getText().toString().trim();
+                        paymentedit_expire = mExpire.getText().toString().trim();
+                        paymentedit_amount = mAmount.getText().toString().trim();
 
                     //function call to upload data
                         UploadData (paymentedit_cardno, paymentedit_name, paymentedit_cvv, paymentedit_expire, paymentedit_amount);
+                }else{
+                    Toast.makeText(PaymentDetails.this, "Empty Fields Not Allowed!", Toast.LENGTH_LONG).show();
+                }
 
-                        //redirecting
-                    openAppointmentConfirmation();
 
                 }
             });
 
     }
+
+
+    //Redirect Do Confirmation page method
+
     public void openAppointmentConfirmation()
     {
         Intent intent = new Intent(this,AppointmentConfirmation.class);
+
         startActivity(intent);
     }
+
+    //Upload data to database method
+
     private void UploadData(String paymentedit_cardno, String paymentedit_name, String paymentedit_cvv, String paymentedit_expire, String paymentedit_amount) {
 
         //set title to progress bar
@@ -119,6 +146,8 @@ public class PaymentDetails extends AppCompatActivity {
                             
                             pd.dismiss();
                             Toast.makeText(PaymentDetails.this, "Verified...", Toast.LENGTH_SHORT).show();
+                            //redirecting
+                            openAppointmentConfirmation();
 
                         }
                     })

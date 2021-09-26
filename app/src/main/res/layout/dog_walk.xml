@@ -97,8 +97,8 @@
 
     <TextView
         android:id="@+id/walk_dogtxt3"
-        android:layout_width="281dp"
-        android:layout_height="69dp"
+        android:layout_width="286dp"
+        android:layout_height="79dp"
         android:gravity="center"
         android:text="@string/walk_dogtxt3"
         android:textColor="@color/splash"
@@ -132,7 +132,8 @@
         android:textSize="20sp"
         app:backgroundTint="@color/splash"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="startChronometer"/>
 
     <Button
         android:id="@+id/walk_dogbtn2"
@@ -146,7 +147,8 @@
         app:backgroundTint="@color/splash"
         app:layout_constraintEnd_toStartOf="@+id/walk_dogbtn3"
         app:layout_constraintStart_toEndOf="@+id/walk_dogbtn1"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="pauseChronometer"/>
 
     <Button
         android:id="@+id/walk_dogbtn3"
@@ -159,7 +161,8 @@
         android:textSize="20sp"
         app:backgroundTint="@color/splash"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="resetChronometer"/>
 
     <TextView
         android:id="@+id/walk_dogedit2"
@@ -168,12 +171,23 @@
         android:layout_marginTop="8dp"
         android:background="@drawable/round_corner"
         android:gravity="center"
-        android:hint="@string/walk_dogedit2"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/walk_dogbtn2" />
+
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/walk_dogbtn4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageView44"

@@ -3,10 +3,18 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+<<<<<<< HEAD
     android:layout_margin="8dp"
     app:cardBackgroundColor="@color/purple_700"
     app:cardCornerRadius="8dp"
     app:cardElevation="8dp">
+=======
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="@color/purple_700"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp"
+    >
+>>>>>>> origin/master
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -24,6 +32,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+<<<<<<< HEAD
                 android:text="Breed"
                 android:textColor="@color/white"
                 android:textSize="26sp"
@@ -31,13 +40,25 @@
 
             <TextView
                 android:id="@+id/tvbreed"
+=======
+                android:text="First Name:"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvfirstname"
+>>>>>>> origin/master
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:text="Arya"
                 android:textColor="@color/white"
                 android:textSize="20sp" />
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
         </LinearLayout>
 
         <LinearLayout
@@ -49,6 +70,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+<<<<<<< HEAD
                 android:text="Age"
                 android:textColor="@color/white"
                 android:textSize="26sp"
@@ -66,4 +88,47 @@
         </LinearLayout>
 
     </LinearLayout>
+=======
+                android:text="Specialization:"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvspecial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Hons"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address:"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvaddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Kelaniya"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+>>>>>>> origin/master
 </androidx.cardview.widget.CardView>
