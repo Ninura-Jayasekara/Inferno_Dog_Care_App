@@ -180,8 +180,7 @@
     <string name="btn_user_reg">NEXT</string>
     <string name="user_reg_dog_toolbar_name">User Registration</string>
     <string name="txt_user_reg_dog">Your Dog</string>
-    <string name="txt_fname">First Name</string>
-    <string name="txt_lname">Last Name</string>
+    <string name="txt_fname">Name</string>
     <string name="txt_gender">Gender</string>
     <string name="txt_phone">Phone</string>
     <string name="txt_email2">Email</string>
@@ -199,8 +198,8 @@
     <string name="user_profile_toolbar_name">User Profile</string>
     <string name="txt_userprofile_name">Name : Manuka Dahanayake</string>
     <string name="txt_userprofile_gender">Gender : Male</string>
-    <string name="txt_userprofile_phone">Phone : 071 1234569</string>
-    <string name="txt_userprofile_email">Email : manuka@gmail.com</string>
+    <string name="txt_userprofile_phone">071 1234569</string>
+    <string name="txt_userprofile_email">manuka@gmail.com</string>
     <string name="txt_userprofile_dogname">Name : Selly</string>
     <string name="txt_userprofile_dogbreed">Breed : Labrador Retriever</string>
     <string name="txt_userprofile_doggender">Gender : Female</string>
@@ -247,6 +246,8 @@
     <string name="txt_adoptdetails9"> 3 Kg</string>
     <string name="txt_adoptdetails5">Contact No :</string>
     <string name="txt_adoptdetails10">076 3456789</string>
+    <string name="useremail">Email :</string>
+    <string name="userphone">Phone :</string>
 
 
 </resources>

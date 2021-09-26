@@ -256,94 +256,111 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
+    <EditText
         android:id="@+id/txt_food_calories4"
         android:layout_width="240dp"
         android:layout_height="50dp"
         android:layout_marginTop="60dp"
         android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:ems="10"
         android:hint="@string/txt_food_calories4"
+        android:inputType="textPersonName"
         android:textAlignment="center"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.925"
+        app:layout_constraintHorizontal_bias="0.929"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
+    <EditText
         android:id="@+id/txt_food_calories5"
         android:layout_width="240dp"
         android:layout_height="50dp"
-        android:layout_marginStart="15dp"
         android:layout_marginTop="115dp"
         android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:ems="10"
         android:hint="@string/txt_food_calories5"
+        android:inputType="textPersonName"
         android:textAlignment="center"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.917"
+        app:layout_constraintHorizontal_bias="0.929"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
+    <EditText
         android:id="@+id/txt_food_calories6"
         android:layout_width="240dp"
         android:layout_height="50dp"
         android:layout_marginTop="170dp"
         android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:ems="10"
         android:hint="@string/txt_food_calories6"
+        android:inputType="textPersonName"
         android:textAlignment="center"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.925"
+        app:layout_constraintHorizontal_bias="0.929"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
+    <EditText
         android:id="@+id/txt_food_calories7"
         android:layout_width="240dp"
         android:layout_height="50dp"
         android:layout_marginTop="225dp"
         android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:ems="10"
         android:hint="@string/txt_food_calories7"
+        android:inputType="textPersonName"
         android:textAlignment="center"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.925"
+        app:layout_constraintHorizontal_bias="0.929"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
+    <EditText
         android:id="@+id/txt_food_calories8"
         android:layout_width="240dp"
         android:layout_height="50dp"
         android:layout_marginTop="280dp"
         android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:ems="10"
         android:hint="@string/txt_food_calories8"
+        android:inputType="textPersonName"
         android:textAlignment="center"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.925"
+        app:layout_constraintHorizontal_bias="0.929"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
+    <EditText
         android:id="@+id/txt_food_calories9"
         android:layout_width="240dp"
         android:layout_height="50dp"
         android:layout_marginTop="335dp"
         android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:ems="10"
         android:hint="@string/txt_food_calories9"
+        android:inputType="textPersonName"
         android:textAlignment="center"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.925"
+        app:layout_constraintHorizontal_bias="0.929"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
