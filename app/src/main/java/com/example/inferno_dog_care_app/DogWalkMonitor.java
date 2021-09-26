@@ -52,10 +52,8 @@ public class DogWalkMonitor extends AppCompatActivity {
         float time = pauseOfSet;
         float minutes = (time/60000);
         float burnedCalories = (float) (((3.0*3.5*dogWeight)/200)*minutes);
-
         DecimalFormat df = new DecimalFormat("0.00");
         calories.setText(""+df.format(burnedCalories));
-
     }
 
     public void startChronometer(View view){
