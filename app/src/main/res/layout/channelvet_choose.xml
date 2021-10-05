@@ -65,7 +65,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
-        android:id="@+id/buy_icon"
+        android:id="@+id/buyicon"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginStart="16dp"
@@ -91,7 +91,7 @@
         app:srcCompat="@drawable/sell" />
 
     <ImageView
-        android:id="@+id/home_icon"
+        android:id="@+id/homeicon"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginBottom="4dp"
@@ -102,7 +102,7 @@
         app:srcCompat="@drawable/home" />
 
     <ImageView
-        android:id="@+id/appo_icon"
+        android:id="@+id/appoinmenticon"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginEnd="92dp"

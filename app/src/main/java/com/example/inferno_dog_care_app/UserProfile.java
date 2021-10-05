@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 import androidx.annotation.NonNull;
@@ -28,6 +29,7 @@ public class UserProfile extends AppCompatActivity {
     TextView User_name, UserDetail1, UserDetail4, UserDetail5, UserDetail6, UserDetail7,UserDetail8;
     FirebaseFirestore fStore;
     Button Delete, Update;
+    private ImageView home,buy,appointment,sell;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +48,40 @@ public class UserProfile extends AppCompatActivity {
         Update = (Button)findViewById(R.id.btn_userprofile_update);
         Delete = (Button)findViewById(R.id.btn_userprofile_delete);
         fStore = FirebaseFirestore.getInstance();
+
+        home = findViewById(R.id.homeicon);
+        buy = findViewById(R.id.buyicon);
+        appointment = findViewById(R.id.appoinmenticon);
+        sell= findViewById(R.id.sellicon);
+
+        home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openHome();
+            }
+        });
+
+        buy.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openAdvertisements();
+            }
+        });
+
+        appointment.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openVetlist();
+            }
+        });
+
+        sell.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openAdvertisement();
+            }
+        });
+
         fetchdata();
     }
 
@@ -119,6 +155,21 @@ public class UserProfile extends AppCompatActivity {
     }
     private void openHome() {
         Intent intent = new Intent(this,MainMenu.class);
+        startActivity(intent);
+    }
+
+    private void openVetlist() {
+        Intent intent = new Intent(this,VetDetails.class);
+        startActivity(intent);
+    }
+
+    public void openAdvertisements() {
+        Intent intent = new Intent(this,BuyPet.class);
+        startActivity(intent);
+    }
+
+    private void openAdvertisement() {
+        Intent intent = new Intent(this,SellPet.class);
         startActivity(intent);
     }
 

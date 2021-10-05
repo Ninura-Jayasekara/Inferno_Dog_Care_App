@@ -1,6 +1,8 @@
 package com.example.inferno_dog_care_app;
 
+import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -13,9 +15,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
+import com.squareup.picasso.Picasso;
 
 import java.util.HashMap;
 
@@ -23,7 +27,14 @@ public class ViewSellAdvertisement extends AppCompatActivity  {
     EditText OwnerName, Phone, Address, Breed, NoOfPuppies, Birthday, Price;
     FirebaseFirestore fStore;
     Button btnUpdate, btnDelete;
-    private ImageView home,sell,buy,appointment,profile;
+    String Curent_ID="fd25e50a-10b5-49b2-a389-fd39de17d117";private ImageView home,sell,buy,appointment,profile;
+    String Current_ID;
+    FirebaseAuth fAuth;
+    ImageView imageView;
+    String url;
+
+    private Context context;
+
 
 
 
@@ -42,6 +53,7 @@ public class ViewSellAdvertisement extends AppCompatActivity  {
         Price =(EditText) findViewById(R.id.view_price);
         btnUpdate = (Button)findViewById(R.id.view_updatebtn);
         btnDelete =(Button) findViewById(R.id.view_deletebtn);
+        imageView = findViewById(R.id.imageView9);
 
         home = findViewById(R.id.homeicon);
         sell = findViewById(R.id.sellicon);
@@ -49,10 +61,15 @@ public class ViewSellAdvertisement extends AppCompatActivity  {
         appointment = findViewById(R.id.appoinmenticon);
         profile = findViewById(R.id.profileicon);
 
+        fAuth = FirebaseAuth.getInstance();
+        fStore = FirebaseFirestore.getInstance();
+
+        Current_ID = fAuth.getCurrentUser().getUid();
+
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openHome();
+                String i =Curent_ID;openHome();
             }
         });
 
@@ -103,7 +120,7 @@ public class ViewSellAdvertisement extends AppCompatActivity  {
 
 
     public void fetchdata() {
-        DocumentReference document =fStore.collection("Sell_Dog").document("fd25e50a-10b5-49b2-a389-fd39de17d117");
+        DocumentReference document =fStore.collection("Sell_Dog").document(Curent_ID);
         document.get().addOnSuccessListener(new OnSuccessListener<DocumentSnapshot>() {
             @Override
             public void onSuccess(DocumentSnapshot documentSnapshot) {
@@ -115,6 +132,8 @@ public class ViewSellAdvertisement extends AppCompatActivity  {
                     NoOfPuppies.setText(documentSnapshot.getString("No_Of_Puppies"));
                     Birthday.setText(documentSnapshot.getString("Birthday"));
                     Price.setText(documentSnapshot.getString("Price"));
+                    //imageView.setImageURI(Uri.parse(documentSnapshot.getString("imageURL")));
+                    //Picasso.with(context).load(url).into(imageView);
 
                     btnUpdate.setOnClickListener(new View.OnClickListener() {
                         @Override

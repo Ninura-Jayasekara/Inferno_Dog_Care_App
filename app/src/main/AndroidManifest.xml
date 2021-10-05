@@ -3,6 +3,9 @@
     package="com.example.inferno_dog_care_app">
 
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
 
     <application
         android:allowBackup="true"
@@ -46,6 +49,9 @@
         <activity android:name=".VetIncome" />
         <activity android:name=".VetChannel" />
         <activity android:name=".AdvertisementProfile" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
     </application>
 
 </manifest>
