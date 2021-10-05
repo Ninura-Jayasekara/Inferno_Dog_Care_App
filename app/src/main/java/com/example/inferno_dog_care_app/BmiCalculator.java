@@ -57,6 +57,7 @@ public class BmiCalculator extends AppCompatActivity{
 
     }
 
+        //Calculation
         private void calculateBmi() {
 
             float height = Float.parseFloat(bmi_edit4.getText().toString().trim());
