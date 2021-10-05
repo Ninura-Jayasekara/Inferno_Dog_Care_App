@@ -4,41 +4,34 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Inferno_Dog_Care_App/app/src/main/res/layout/activity_main.xml" value="0.25052083333333336" />
-        <entry key="..\:/Inferno_Dog_Care_App/app/src/main/res/layout/appointment_confirmation.xml" value="0.25416666666666665" />
-        <entry key="..\:/Inferno_Dog_Care_App/app/src/main/res/layout/appointment_details.xml" value="0.25052083333333336" />
-        <entry key="..\:/Inferno_Dog_Care_App/app/src/main/res/layout/bmi_calculator.xml" value="0.25052083333333336" />
-        <entry key="..\:/Inferno_Dog_Care_App/app/src/main/res/layout/buy_profile.xml" value="0.25052083333333336" />
-        <entry key="..\:/Inferno_Dog_Care_App/app/src/main/res/layout/buypet.xml" value="0.25052083333333336" />
-        <entry key="..\:/Inferno_Dog_Care_App/app/src/main/res/layout/channelvet_choose.xml" value="0.25052083333333336" />
-        <entry key="..\:/Inferno_Dog_Care_App/app/src/main/res/layout/dog_walk.xml" value="0.25052083333333336" />
-        <entry key="..\:/Inferno_Dog_Care_App/app/src/main/res/layout/main_menu.xml" value="0.25052083333333336" />
-        <entry key="..\:/Inferno_Dog_Care_App/app/src/main/res/layout/main_sellpet.xml" value="0.25052083333333336" />
-        <entry key="..\:/Inferno_Dog_Care_App/app/src/main/res/layout/sell_pet.xml" value="0.25052083333333336" />
-        <entry key="..\:/Inferno_Dog_Care_App/app/src/main/res/layout/splash_screen.xml" value="0.25416666666666665" />
-        <entry key="..\:/Inferno_Dog_Care_App/app/src/main/res/layout/view_sellpet.xml" value="0.25052083333333336" />
-        <entry key="..\:/MAD/app/src/main/res/drawable-v24/round_corner.xml" value="0.14635416666666667" />
-        <entry key="..\:/MAD/app/src/main/res/drawable-v24/round_corner2.xml" value="0.2703125" />
-        <entry key="..\:/MAD/app/src/main/res/drawable/round.xml" value="0.2703125" />
-        <entry key="..\:/MAD/app/src/main/res/layout/appointment_confirmation.xml" value="0.13020833333333334" />
-        <entry key="..\:/MAD/app/src/main/res/layout/appointment_details.xml" value="0.13020833333333334" />
-        <entry key="..\:/MAD/app/src/main/res/layout/bmi_calculator.xml" value="0.13020833333333334" />
-        <entry key="..\:/MAD/app/src/main/res/layout/buy_profile.xml" value="0.13020833333333334" />
-        <entry key="..\:/MAD/app/src/main/res/layout/buypet.xml" value="0.13020833333333334" />
-        <entry key="..\:/MAD/app/src/main/res/layout/channel_vet.xml" value="0.25416666666666665" />
-        <entry key="..\:/MAD/app/src/main/res/layout/channelvet_choose.xml" value="0.13020833333333334" />
-        <entry key="..\:/MAD/app/src/main/res/layout/dog_walk.xml" value="0.13020833333333334" />
-        <entry key="..\:/MAD/app/src/main/res/layout/main_menu.xml" value="0.13020833333333334" />
-        <entry key="..\:/MAD/app/src/main/res/layout/main_sellpet.xml" value="0.13020833333333334" />
-        <entry key="..\:/MAD/app/src/main/res/layout/sell_pet.xml" value="0.13020833333333334" />
-        <entry key="..\:/MAD/app/src/main/res/layout/splash_screen.xml" value="0.13020833333333334" />
-        <entry key="..\:/MAD/app/src/main/res/layout/vet_details.xml" value="0.25416666666666665" />
-        <entry key="..\:/MAD/app/src/main/res/layout/vet_income.xml" value="0.264" />
-        <entry key="..\:/MAD/app/src/main/res/layout/vet_logging.xml" value="0.264" />
-        <entry key="..\:/MAD/app/src/main/res/layout/vet_payment.xml" value="0.25416666666666665" />
-        <entry key="..\:/MAD/app/src/main/res/layout/vet_prof_info.xml" value="0.264" />
-        <entry key="..\:/MAD/app/src/main/res/layout/vet_profile.xml" value="0.25" />
-        <entry key="..\:/MAD/app/src/main/res/layout/vet_registration.xml" value="0.25" />
-        <entry key="..\:/MAD/app/src/main/res/layout/view_sellpet.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/94769/AndroidStudioProjects/Dog_Care/app/src/main/res/drawable-v24/round_corner.xml" value="0.11296296296296296" />
+        <entry key="..\:/Users/94769/AndroidStudioProjects/Dog_Care/app/src/main/res/layout/adopt_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/94769/AndroidStudioProjects/Dog_Care/app/src/main/res/layout/advertisement_item.xml" value="0.25025641025641027" />
+        <entry key="..\:/Users/94769/AndroidStudioProjects/Dog_Care/app/src/main/res/layout/appointment_confirmation.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/94769/AndroidStudioProjects/Dog_Care/app/src/main/res/layout/appointment_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/94769/AndroidStudioProjects/Dog_Care/app/src/main/res/layout/bmi_calculator.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/94769/AndroidStudioProjects/Dog_Care/app/src/main/res/layout/buy.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/94769/AndroidStudioProjects/Dog_Care/app/src/main/res/layout/buy_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/94769/AndroidStudioProjects/Dog_Care/app/src/main/res/layout/buypet.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/94769/AndroidStudioProjects/Dog_Care/app/src/main/res/layout/channel_vet.xml" value="0.25" />
+        <entry key="..\:/Users/94769/AndroidStudioProjects/Dog_Care/app/src/main/res/layout/channelvet_choose.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/94769/AndroidStudioProjects/Dog_Care/app/src/main/res/layout/dog_walk.xml" value="0.25" />
+        <entry key="..\:/Users/94769/AndroidStudioProjects/Dog_Care/app/src/main/res/layout/item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/94769/AndroidStudioProjects/Dog_Care/app/src/main/res/layout/login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/94769/AndroidStudioProjects/Dog_Care/app/src/main/res/layout/main_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/94769/AndroidStudioProjects/Dog_Care/app/src/main/res/layout/main_sellpet.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/94769/AndroidStudioProjects/Dog_Care/app/src/main/res/layout/sell_pet.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/94769/AndroidStudioProjects/Dog_Care/app/src/main/res/layout/splash_screen.xml" value="0.12222222222222222" />
+        <entry key="..\:/Users/94769/AndroidStudioProjects/Dog_Care/app/src/main/res/layout/user_reg.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/94769/AndroidStudioProjects/Dog_Care/app/src/main/res/layout/user_reg_dog.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/94769/AndroidStudioProjects/Dog_Care/app/src/main/res/layout/vet_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/94769/AndroidStudioProjects/Dog_Care/app/src/main/res/layout/vet_income.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/94769/AndroidStudioProjects/Dog_Care/app/src/main/res/layout/vet_logging.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/94769/AndroidStudioProjects/Dog_Care/app/src/main/res/layout/vet_payment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/94769/AndroidStudioProjects/Dog_Care/app/src/main/res/layout/vet_prof_info.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/94769/AndroidStudioProjects/Dog_Care/app/src/main/res/layout/vet_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/94769/AndroidStudioProjects/Dog_Care/app/src/main/res/layout/vet_registration.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/94769/AndroidStudioProjects/Dog_Care/app/src/main/res/layout/view_sellpet.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>
@@ -47,5 +40,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.25416666666666665" />
+      </ProjectState>
+    </option>
   </component>
 </project>
