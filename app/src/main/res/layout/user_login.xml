@@ -168,6 +168,7 @@
         android:layout_marginTop="452dp"
         android:background="@drawable/round"
         android:hint="@string/txt_user_password"
+        android:inputType="textPassword"
         android:textAlignment="center"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"

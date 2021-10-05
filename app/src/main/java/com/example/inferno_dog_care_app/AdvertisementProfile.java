@@ -13,7 +13,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.firebase.firestore.FirebaseFirestore;
 
 public class AdvertisementProfile extends AppCompatActivity {
-    EditText mOwnerName, mPhone,mBreed, mAddress, mNoOfPuppies, mBirthday, mPrice;
+    EditText mOwnerName, mPhone ,mBreed, mAddress, mNoOfPuppies, mBirthday, mPrice;
     TextView headingBreed;
     String id;
     private ImageView home,sell,buy,appointment,profile;

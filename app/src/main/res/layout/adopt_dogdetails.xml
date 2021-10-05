@@ -2,7 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/adopt_dogdetails"
+    android:id="@+id/adopt_dog_details"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black">
@@ -34,7 +34,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/buy_icon"
+        android:id="@+id/buyicon"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginStart="16dp"
@@ -48,7 +48,7 @@
         app:srcCompat="@drawable/buy" />
 
     <ImageView
-        android:id="@+id/sell_icon"
+        android:id="@+id/sellicon"
         android:layout_width="60dp"
         android:layout_height="60dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -60,7 +60,7 @@
         app:srcCompat="@drawable/sell" />
 
     <ImageView
-        android:id="@+id/home_icon"
+        android:id="@+id/homeicon"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginBottom="4dp"
@@ -71,7 +71,7 @@
         app:srcCompat="@drawable/home" />
 
     <ImageView
-        android:id="@+id/appo_icon"
+        android:id="@+id/appoinmenticon"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginEnd="92dp"
@@ -82,7 +82,7 @@
         app:srcCompat="@drawable/appoinment" />
 
     <ImageView
-        android:id="@+id/profile_icon"
+        android:id="@+id/profileicon"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginEnd="12dp"
