@@ -1,8 +1,11 @@
 package com.example.inferno_dog_care_app;
 
+import static android.content.ContentValues.TAG;
+
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -12,8 +15,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
 import com.google.android.material.textfield.TextInputLayout;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.DocumentReference;
@@ -21,6 +26,8 @@ import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.EventListener;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.FirebaseFirestoreException;
+import com.google.firebase.firestore.QueryDocumentSnapshot;
+import com.google.firebase.firestore.QuerySnapshot;
 
 import java.util.HashMap;
 import java.util.ResourceBundle;
@@ -28,13 +35,17 @@ import java.util.ResourceBundle;
 public class VetProfile extends AppCompatActivity {
 
         EditText Doc_name, Detail1, Detail2, Detail3, Detail4, Detail5, Detail6;
+        String ID;
         FirebaseFirestore fStore;
+        String email = "6901e38c-d04e-4bb2-8e86-44841da65b83" ;
         Button Delete, Update, Appointments_btn;
 
         @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.vet_profile);
+
+            //email = getIntent().getStringExtra("Email");
 
             Doc_name = (EditText) findViewById(R.id.doc_name);
             Detail1 = (EditText)findViewById(R.id.detail1);
@@ -62,8 +73,11 @@ public class VetProfile extends AppCompatActivity {
         }
 
 
+
+
+
     private void fetchdata() {
-        DocumentReference document =fStore.collection("veterinarian").document("c6392931-3d23-42d3-b78c-0e64faff173c");
+        DocumentReference document =fStore.collection("veterinarian").document(email);
         document.get().addOnSuccessListener(new OnSuccessListener<DocumentSnapshot>() {
             @Override
             public void onSuccess(DocumentSnapshot documentSnapshot) {
@@ -140,12 +154,12 @@ public class VetProfile extends AppCompatActivity {
 
     }
 
-   private void openHome() {
-       Intent intent = new Intent(this,MainMenu.class);
-       startActivity(intent);
+    private void openHome() {
+        Intent intent = new Intent(this,MainMenu.class);
+        startActivity(intent);
     }
 
 
 }
 
-    
+

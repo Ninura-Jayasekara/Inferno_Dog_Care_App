@@ -2,6 +2,7 @@ package com.example.inferno_dog_care_app;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -20,11 +21,20 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.firestore.CollectionReference;
+import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.FirebaseFirestore;
+
 public class VetLogin extends AppCompatActivity {
     EditText Email, Password;
     Button Login_btn;
     TextView Signup;
     FirebaseAuth firebaseAuth;
+    String email = String.valueOf(Email);
+
+    private FirebaseFirestore db = FirebaseFirestore.getInstance();
+    private CollectionReference userCollection = db.collection("veterinarian");
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -59,13 +69,16 @@ public class VetLogin extends AppCompatActivity {
                     @Override
                     public void onSuccess(AuthResult authResult) {
                         //login is successful
-                        startActivity(new Intent(getApplicationContext(),VetProfile.class));
+                        Intent intent = new Intent(VetLogin.this,VetProfile.class);
+                        intent.putExtra("Email", email);
+                        startActivity(intent);
+
                         finish();
                     }
                 }).addOnFailureListener(new OnFailureListener() {
                     @Override
                     public void onFailure(@NonNull Exception e) {
-                        Toast.makeText(VetLogin.this, "e.getMessage", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(VetLogin.this, e.toString(), Toast.LENGTH_SHORT).show();
                     }
                 });
 
@@ -73,4 +86,3 @@ public class VetLogin extends AppCompatActivity {
         });
     }
 }
-
