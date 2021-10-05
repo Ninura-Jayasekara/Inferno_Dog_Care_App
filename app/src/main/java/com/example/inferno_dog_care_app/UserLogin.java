@@ -70,7 +70,7 @@ public class UserLogin extends AppCompatActivity {
                 }).addOnFailureListener(new OnFailureListener() {
                     @Override
                     public void onFailure(@NonNull Exception e) {
-                        Toast.makeText(UserLogin.this, "e.getMessage", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(UserLogin.this, e.toString(), Toast.LENGTH_SHORT).show();
                     }
                 });
 

@@ -5,10 +5,13 @@ import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
@@ -44,6 +47,14 @@ public class AdvertisementAdapter extends RecyclerView.Adapter<AdvertisementAdap
         String count =advertisement.No_Of_Puppies;
         String birthday =advertisement.Birthday;
         String price =advertisement.Price;
+        //String imageUrl = advertisement.getImageURL();
+
+        /*Picasso.with(context)
+                .load(imageUrl)
+                .placeholder(R.drawable.sell_lab)
+                .fit()
+                .into(holder.image);*/
+
         holder.view.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -72,12 +83,14 @@ public class AdvertisementAdapter extends RecyclerView.Adapter<AdvertisementAdap
 
         TextView Breed,Price;
         View view;
+        //ImageView image;
 
         public AdvertisementViewHolder(@NonNull View itemView) {
             super(itemView);
             view = itemView;
             Breed = itemView.findViewById(R.id.tvbreed);
             Price = itemView.findViewById(R.id.tvprice);
+            //image = itemView.findViewById(R.id.imageView35);
         }
     }
 }

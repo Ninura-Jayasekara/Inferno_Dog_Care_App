@@ -34,6 +34,7 @@ public class VetProfessionalDetails extends AppCompatActivity {
     String email;
     String password;
 
+
     //progress dialog
 
     ProgressDialog pd;
@@ -95,6 +96,7 @@ public class VetProfessionalDetails extends AppCompatActivity {
 
     }
 
+
     private void UploadData(String reg_no, String reg_year, String specification, String description) {
 
 
@@ -152,4 +154,5 @@ public class VetProfessionalDetails extends AppCompatActivity {
         Intent intent = new Intent(this,VetLogin.class);
         startActivity(intent);
     }
+
 }

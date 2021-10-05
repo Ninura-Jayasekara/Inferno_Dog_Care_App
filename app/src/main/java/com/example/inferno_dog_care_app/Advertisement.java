@@ -1,13 +1,13 @@
 package com.example.inferno_dog_care_app;
 
 public class Advertisement {
-    String ID,Owner_Name,Phone_Number, Address,Breed,No_Of_Puppies,Birthday,Price;
+    String ID,Owner_Name,Phone_Number, Address,Breed,No_Of_Puppies,Birthday,Price,imageURL;;
 
     public Advertisement(){
 
     }
 
-    public Advertisement(String ID, String owner_Name, String phone_Number, String address, String breed, String no_Of_Puppies, String birthday, String price) {
+    public Advertisement(String ID, String owner_Name, String phone_Number, String address, String breed, String no_Of_Puppies, String birthday, String price, String imageURL) {
         this.ID = ID;
         Owner_Name = owner_Name;
         Phone_Number = phone_Number;
@@ -16,6 +16,15 @@ public class Advertisement {
         No_Of_Puppies = no_Of_Puppies;
         Birthday = birthday;
         Price = price;
+        this.imageURL = imageURL;
+    }
+
+    public String getImageURL() {
+        return imageURL;
+    }
+
+    public void setImageURL(String imageURL) {
+        this.imageURL = imageURL;
     }
 
     public String getID() {
