@@ -29,9 +29,11 @@ import java.util.UUID;
 public class PaymentDetails extends AppCompatActivity {
 
     //views
-
+    AppointmentModel Appointment = new AppointmentModel();
     EditText mCardNo, mName, mCvv, mExpire, mAmount;
     Button mPaymentBtn;
+    String AppointmentID,Doctor,Customer,Date,Phone;
+    String channel_name, channel_date, channel_phone, fullname, id;
 
     String paymentedit_cardno;
     String paymentedit_name;
@@ -52,6 +54,14 @@ public class PaymentDetails extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.vet_payment);
+
+
+        //getExtra
+        AppointmentID = getIntent().getStringExtra("AppID");
+        Doctor = getIntent().getStringExtra("Doctor");
+        Customer = getIntent().getStringExtra("Customer");
+        Date = getIntent().getStringExtra("Date");
+        Phone = getIntent().getStringExtra("Contact");
 
 
 
@@ -79,18 +89,18 @@ public class PaymentDetails extends AppCompatActivity {
                 public void onClick(View view) {
 
                     //validation
-                    if(!TextUtils.isEmpty(mCardNo.getText().toString())
-                            && !TextUtils.isEmpty(mName.getText().toString())
-                            && !TextUtils.isEmpty(mCvv.getText().toString())
-                            && !TextUtils.isEmpty(mExpire.getText().toString())
-                            && !TextUtils.isEmpty(mAmount.getText().toString())){
+                    if(!TextUtils.isEmpty(mCardNo.getText().toString().trim())
+                            && !TextUtils.isEmpty(mName.getText().toString().trim())
+                            && !TextUtils.isEmpty(mCvv.getText().toString().trim())
+                            && !TextUtils.isEmpty(mExpire.getText().toString().trim())
+                            && !TextUtils.isEmpty(mAmount.getText().toString().trim())){
 
                     //input data
-                        paymentedit_cardno = mCardNo.getText().toString().trim();
-                        paymentedit_name = mName.getText().toString().trim();
-                        paymentedit_cvv = mCvv.getText().toString().trim();
-                        paymentedit_expire = mExpire.getText().toString().trim();
-                        paymentedit_amount = mAmount.getText().toString().trim();
+//                        paymentedit_cardno = mCardNo.getText().toString().trim();
+//                        paymentedit_name = mName.getText().toString().trim();
+//                        paymentedit_cvv = mCvv.getText().toString().trim();
+//                        paymentedit_expire = mExpire.getText().toString().trim();
+//                        paymentedit_amount = mAmount.getText().toString().trim();
 
                     //function call to upload data
                         UploadData (paymentedit_cardno, paymentedit_name, paymentedit_cvv, paymentedit_expire, paymentedit_amount);
@@ -110,7 +120,11 @@ public class PaymentDetails extends AppCompatActivity {
     public void openAppointmentConfirmation()
     {
         Intent intent = new Intent(this,AppointmentConfirmation.class);
-
+        intent.putExtra("AppID",AppointmentID);
+        intent.putExtra("Doctor",Doctor);
+        intent.putExtra("Customer",Customer);
+        intent.putExtra("Contact",Phone);
+        intent.putExtra("Date",Date);
         startActivity(intent);
     }
 

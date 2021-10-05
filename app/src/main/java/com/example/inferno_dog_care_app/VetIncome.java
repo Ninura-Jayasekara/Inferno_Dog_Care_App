@@ -1,10 +1,11 @@
 package com.example.inferno_dog_care_app;
 
 import android.app.ProgressDialog;
-import android.content.Intent;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -17,9 +18,12 @@ import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 
+import java.text.DecimalFormat;
+
 public class VetIncome extends AppCompatActivity {
 
     TextView Colum1_n, Colum1_d , Income;
+    EditText Count;
     Button Calculate_btn;
     //progress dialog
 
@@ -38,11 +42,35 @@ public class VetIncome extends AppCompatActivity {
         Colum1_n = findViewById(R.id.c1_n);
         Colum1_d = findViewById(R.id.c1_d);
         Calculate_btn = findViewById(R.id.calc_income);
+        Count = findViewById(R.id.appointmentsCount);
         Income = findViewById(R.id.income_amount);
 
         db = FirebaseFirestore.getInstance();
         fetchdata();
 
+        Calculate_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(!TextUtils.isEmpty(Count.getText().toString().trim())){
+                    getIncome();
+                }else{
+                    Toast.makeText(getApplicationContext(),"Enter Your Appointment Count",Toast.LENGTH_LONG).show();
+                }
+            }
+        });
+
+    }
+
+
+    //Calculation
+    private void getIncome() {
+        float count = Float.parseFloat(Count.getText().toString().trim());
+
+        float income = (float) ((count * 500) - (((count*500)/100)*5));
+
+        DecimalFormat df = new DecimalFormat("0.00");
+
+        Income.setText(""+df.format(income));
     }
 
 
@@ -69,10 +97,6 @@ public class VetIncome extends AppCompatActivity {
 
     }
 
-    private void openHome() {
-        Intent intent = new Intent(this,MainMenu.class);
-        startActivity(intent);
-    }
 
 
 }

@@ -32,8 +32,10 @@ public class Login  extends AppCompatActivity implements View.OnClickListener {
         Intent i;
 
         switch (v.getId()){
-            case R.id.img_vet:i=new Intent(this,VetLogin.class);startActivity(i);break;
-            case R.id.img_user:i=new Intent(this,UserLogin.class);startActivity(i);break;
+            case R.id.img_vet:i=new Intent(this,VetLogin.class);
+                startActivity(i);break;
+            case R.id.img_user:i=new Intent(this,UserLogin.class);
+                startActivity(i);break;
             default:break;
         }
     }

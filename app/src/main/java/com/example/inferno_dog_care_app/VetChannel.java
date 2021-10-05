@@ -28,6 +28,7 @@ import java.util.UUID;
 
 public class VetChannel extends AppCompatActivity {
 
+    AppointmentModel Appointment = new AppointmentModel();
     TextView textname, textspecial, textreg, textaddress, textphone, textemail;
     EditText cName, cDate, cPhone;
     Button bhold, bpay;
@@ -107,11 +108,23 @@ public class VetChannel extends AppCompatActivity {
                 channel_name = cName.getText().toString().trim();
                 channel_date = cDate.getText().toString().trim();
                 channel_phone = cPhone.getText().toString().trim();
+                //Validation
 
 
-                //function call to upload data
-                UploadData ();
+                if(!TextUtils.isEmpty(cName.getText().toString().trim())
+                        && !TextUtils.isEmpty(cDate.getText().toString().trim())
+                        && !TextUtils.isEmpty(cPhone.getText().toString().trim())
+                ){
 
+
+
+                    //function call to upload data
+                    UploadData ();
+
+
+                }else{
+                    Toast.makeText(getApplicationContext(), "Empty Fields Not Allowed!", Toast.LENGTH_LONG).show();
+                }
 
 
             }
@@ -124,23 +137,27 @@ public class VetChannel extends AppCompatActivity {
             public void onClick(View view) {
                 isHold=false;
 
-                //Validation
-
-                if(!TextUtils.isEmpty(cName.getText().toString())
-                        && !TextUtils.isEmpty(cDate.getText().toString())
-                        && !TextUtils.isEmpty(cPhone.getText().toString())
-                       ){
                 //input data
                 channel_name = cName.getText().toString().trim();
                 channel_date = cDate.getText().toString().trim();
                 channel_phone = cPhone.getText().toString().trim();
+
+                //Validation
+
+
+                if(!TextUtils.isEmpty(cName.getText().toString().trim())
+                        && !TextUtils.isEmpty(cDate.getText().toString().trim())
+                        && !TextUtils.isEmpty(cPhone.getText().toString().trim())
+                       ){
+
+
 
                     //function call to upload data
                     UploadData ();
 
 
                 }else{
-                    Toast.makeText(VetChannel.this, "Empty Fields Not Allowed!", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), "Empty Fields Not Allowed!", Toast.LENGTH_LONG).show();
                 }
 
 
@@ -172,7 +189,11 @@ public class VetChannel extends AppCompatActivity {
     //Redirect to payment details class
     private void openPaymentDetails () {
         Intent intent = new Intent(this, PaymentDetails.class);
-
+        intent.putExtra("AppID",id);
+        intent.putExtra("Doctor",fullname);
+        intent.putExtra("Customer",channel_name);
+        intent.putExtra("Contact",channel_phone);
+        intent.putExtra("Date",channel_date);
         startActivity(intent);
 
     }
@@ -213,16 +234,9 @@ public class VetChannel extends AppCompatActivity {
                         //redirecting
                         if(isHold){
 
-                            //Validation
-                            if(!TextUtils.isEmpty(cName.getText().toString())
-                                    && !TextUtils.isEmpty(cDate.getText().toString())
-                                    && !TextUtils.isEmpty(cPhone.getText().toString())
-                            ){
                                 openAppointment();
                             }else{
-                                Toast.makeText(VetChannel.this, "Empty Fields Not Allowed!", Toast.LENGTH_LONG).show();
-                            }}
-                            else{
+
                                 openPaymentDetails();
                             }
 

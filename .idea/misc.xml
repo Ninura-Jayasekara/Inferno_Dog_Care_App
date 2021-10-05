@@ -6,8 +6,11 @@
         <entry key="..\:/Inferno_Dog_Care_App/app/src/main/res/layout/activity_main.xml" value="0.25052083333333336" />
         <entry key="..\:/Inferno_Dog_Care_App/app/src/main/res/layout/adopt_dog.xml" value="0.25416666666666665" />
         <entry key="..\:/Inferno_Dog_Care_App/app/src/main/res/layout/adopt_dogdetails.xml" value="0.25416666666666665" />
+        <entry key="..\:/Inferno_Dog_Care_App/app/src/main/res/layout/advertisement_item.xml" value="0.25416666666666665" />
         <entry key="..\:/Inferno_Dog_Care_App/app/src/main/res/layout/appointment_confirmation.xml" value="0.25416666666666665" />
         <entry key="..\:/Inferno_Dog_Care_App/app/src/main/res/layout/appointment_details.xml" value="0.25052083333333336" />
+        <entry key="..\:/Inferno_Dog_Care_App/app/src/main/res/layout/appointment_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Inferno_Dog_Care_App/app/src/main/res/layout/appointment_list.xml" value="0.25416666666666665" />
         <entry key="..\:/Inferno_Dog_Care_App/app/src/main/res/layout/bmi_calculator.xml" value="0.25416666666666665" />
         <entry key="..\:/Inferno_Dog_Care_App/app/src/main/res/layout/buy_profile.xml" value="0.25052083333333336" />
         <entry key="..\:/Inferno_Dog_Care_App/app/src/main/res/layout/buypet.xml" value="0.25052083333333336" />
@@ -67,7 +70,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.264" />
+        <option name="scale" value="0.25416666666666665" />
       </ProjectState>
     </option>
   </component>

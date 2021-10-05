@@ -46,6 +46,7 @@
         <activity android:name=".VetIncome" />
         <activity android:name=".VetChannel" />
         <activity android:name=".AdvertisementProfile" />
+        <activity android:name=".AppointmentHold" />
     </application>
 
 </manifest>

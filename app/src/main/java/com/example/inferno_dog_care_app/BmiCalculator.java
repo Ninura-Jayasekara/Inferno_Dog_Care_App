@@ -43,6 +43,7 @@ public class BmiCalculator extends AppCompatActivity{
         bmi_ans=findViewById(R.id.bmi_ans);
         bmi_edit1 = findViewById(R.id.bmi_edit1);
         display_name_txt=findViewById(R.id.display_name_txt);
+
         bmi_btn1.setOnClickListener(new View.OnClickListener() {
 
             @Override

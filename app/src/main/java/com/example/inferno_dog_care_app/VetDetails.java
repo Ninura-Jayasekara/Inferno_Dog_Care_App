@@ -24,7 +24,7 @@ import java.util.ArrayList;
 
 public class VetDetails  extends AppCompatActivity {
 
-    //Views
+
 
     //Recycler View
     RecyclerView recyclerView;
@@ -60,6 +60,8 @@ public class VetDetails  extends AppCompatActivity {
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
+
+
         //Firestore
         db = FirebaseFirestore.getInstance();
 
@@ -75,6 +77,9 @@ public class VetDetails  extends AppCompatActivity {
 
         //Function called to fetch data
         EventChangeListner();
+
+
+
 
 
 
@@ -113,5 +118,6 @@ public class VetDetails  extends AppCompatActivity {
                 });
 
     }
+
 
 }

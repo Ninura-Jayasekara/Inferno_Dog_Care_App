@@ -42,6 +42,7 @@ public class MyAdaptor extends RecyclerView.Adapter<MyAdaptor.MyViewHolder> {
     public int getItemCount() {
         return userArrayList.size();
     }
+
     public static class MyViewHolder extends RecyclerView.ViewHolder{
 
         TextView name, age;

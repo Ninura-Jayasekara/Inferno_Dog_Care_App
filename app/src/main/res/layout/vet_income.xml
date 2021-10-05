@@ -8,46 +8,6 @@
     android:textAlignment="center">
 
     <EditText
-        android:id="@+id/c4_d"
-        android:layout_width="180dp"
-        android:layout_height="70dp"
-        android:layout_marginStart="5dp"
-        android:layout_marginLeft="5dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:background="@color/white"
-        android:ems="10"
-        android:gravity="center"
-        android:inputType="textPersonName"
-        android:text="@string/c4_d"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/c4_n"
-        app:layout_constraintTop_toBottomOf="@+id/c3_d"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <EditText
-        android:id="@+id/c4_n"
-        android:layout_width="220dp"
-        android:layout_height="70dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginRight="10dp"
-        android:background="@color/white"
-        android:ems="10"
-        android:gravity="center"
-        android:inputType="textPersonName"
-        android:text="@string/c4_n"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView14"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/c3_n"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <EditText
         android:id="@+id/c3_d"
         android:layout_width="180dp"
         android:layout_height="70dp"
@@ -369,5 +329,37 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.906" />
+
+    <EditText
+        android:id="@+id/appointmentsCount"
+        android:layout_width="122dp"
+        android:layout_height="46dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.861"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.675" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="182dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="15dp"
+        android:text="Patients Count"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.231"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.675" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
